@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-10-23T12:53:06.186711+00:00",
+  "scenario": "Synthetic ecommerce returns operations pilot",
+  "provider": "openai_compatible",
+  "model": "deepseek-v4-flash",
+  "live_api": true,
+  "microphone_or_live_stt_tested": false,
+  "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+  "runtime": "Loopback FastAPI, isolated SQLite/files, volatile Redis fallback",
+  "steps": [
+    {
+      "step": "discovery",
+      "result": "Real model created two candidate REQs and proposed an access-model decision."
+    },
+    {
+      "step": "pilot_boundary",
+      "result": "User chose a manually emailed single-use link; model created REQ-003. Protected profile proposal failed policy validation before TASK-0066 repair."
+    },
+    {
+      "step": "profile_proposal",
+      "result": "After repair, valid protected PROFILE-003 pending payload was displayed. It expired before being confirmed; no live confirmed profile revision is claimed."
+    },
+    {
+      "step": "expired_ui_control_before_repair",
+      "result": "Old UI sent ordinary approval text after expiry; model proposed fresh candidate acceptance. This exposed TASK-0067; not a successful confirmation of the expired profile proposal."
+    },
+    {
+      "step": "scope_acceptance",
+      "result": "Three candidate REQs accepted via a fresh explicit review command. Before/after snapshots are included."
+    },
+    {
+      "step": "read_projection",
+      "result": "TASK-0068 repaired JSON dropping descriptions/BDD; existing descriptions then appeared in the console."
+    },
+    {
+      "step": "requirement_revision",
+      "result": "Model proposed exact REQ-001 details, rationale and three BDD scenarios. Specific-ID UI approval persisted the reviewed content; other REQs/intake unchanged."
+    },
+    {
+      "step": "replay_refusal",
+      "result": "Replaying the consumed command ID returned HTTP 409; artifacts, conversation and history unchanged."
+    },
+    {
+      "step": "handoff",
+      "result": "Actual generated partial handoff; readiness 69/100; warnings preserved."
+    }
+  ],
+  "boundaries": [
+    "Synthetic user messages were entered by the maintainer through the actual console.",
+    "Early captures precede the audit repairs; no failure history was rewritten.",
+    "Deterministic Mock Provider captures are a separate fixture, not live-model proof.",
+    "GIF concatenates actual still captures; it is not an uninterrupted video.",
+    "Ready handoff, semantic completeness, real speech quality and production tenancy are not established."
+  ],
+  "captures": [
+    {
+      "file": "01-candidate.png",
+      "mode": "deterministic fixture before projection repair"
+    },
+    {
+      "file": "02-business-context.png",
+      "mode": "deterministic fixture, filled form"
+    },
+    {
+      "file": "03-context-packs.png",
+      "mode": "deterministic fixture, cropped modal capture"
+    },
+    {
+      "file": "04-live-discovery.png",
+      "mode": "live provider, early discovery"
+    },
+    {
+      "file": "05-live-profile-approval.png",
+      "mode": "live provider, proposed but later expired profile revision"
+    },
+    {
+      "file": "06-live-scope-approval.png",
+      "mode": "live provider, scope proposal subsequently confirmed"
+    },
+    {
+      "file": "07-live-revision-approval.jpg",
+      "mode": "live provider, REQ-001 proposal subsequently confirmed"
+    },
+    {
+      "file": "08-live-approved-requirement.jpg",
+      "mode": "live provider, approved persisted BDD"
+    },
+    {
+      "file": "09-live-handoff.jpg",
+      "mode": "actual partial handoff, warnings visible"
+    }
+  ]
+}

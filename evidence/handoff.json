@@ -1,0 +1,143 @@
+{
+  "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+  "project_name": "İade Operasyonları — Canlı API",
+  "project_description": "",
+  "level": "partial",
+  "readiness_score": 69,
+  "readiness_ready": false,
+  "intake_status": {
+    "PROFILE-001": "ready_for_handoff",
+    "PROFILE-002": "ready_for_handoff",
+    "PROFILE-003": "ready_for_handoff",
+    "PROFILE-004": "in_detailing",
+    "PROFILE-005": "in_detailing",
+    "CHARTER-001": "in_detailing"
+  },
+  "profile": {
+    "target_user": "Ürün: küçük bir e-ticaret şirketinin iade operasyon ekibi için web tabanlı iade talep yönetimi uygulaması. Alan: e-ticaret sipariş sonrası operasyonları (iade/return request yönetimi). İki yüzey: (1) müşterinin sipariş numarası, iade nedeni ve ürün fotoğrafıyla talep açtığı form; (2) operasyon uzmanının talepleri inceleyip kabul/ret kararı verdiği iç panel. Rehber alan modülleri: domain.ecommerce + product_type.internal_admin_tool.",
+    "usage_context": "Birincil kullanıcı: iade operasyon ekibindeki operasyon uzmanı — talepleri inceleyip kabul/ret kararı verir (kurum içi, masaüstü tarayıcı varsayımı). İkincil kullanıcı: iade talebi açan müşteri — sipariş numarası, iade nedeni ve ürün fotoğrafı sağlar. Bağlam: kurum içi pilot; müşteri tarafı henüz herkese açık bir self-servis ürün değil, pilot kapsamında sınırlı kullanım.",
+    "scope_level": "Birincil kullanıcı: iade operasyon ekibindeki operasyon uzmanı — talepleri inceleyip kabul/ret kararı verir (kurum içi, masaüstü tarayıcı varsayımı). İkincil kullanıcı: iade talebi açan müşteri — sipariş numarası, iade nedeni ve ürün fotoğrafı sağlar. Bağlam: kurum içi pilot; müşteri tarafı henüz herkese açık bir self-servis ürün değil, pilot kapsamında sınırlı kullanım.",
+    "non_goals": "Kapsam düzeyi: ilk sürüm, kurum içi pilot (MVP). Kapsam içi: müşteri iade talebi oluşturma (sipariş no + neden + ürün fotoğrafı), operasyon uzmanının inceleme ve kabul/ret kararı. Açık kapsam dışı: ödeme, muhasebe ve otomatik para iadesi. Bu üç alan pilot sürümde hiçbir şekilde uygulanmayacak; kabul kararı yalnızca operasyonel bir karar kaydıdır, para hareketi tetiklemez.",
+    "technical_stack": "Clarify target platform/runtime, language/framework preference, storage, auth, deployment assumption, integrations, technical constraints and test/smoke command.",
+    "handoff_target": "Clarify whether the handoff is for a human implementation team, coding agent or mixed audience, and which language the handoff artifact should use.",
+    "target_platform": "",
+    "business_model": ""
+  },
+  "charter_principles": [
+    "Clarify user promise, UX tone, product principles, success criteria and implementation anti-goals that should guide downstream builders."
+  ],
+  "tasks": [
+    {
+      "id": "REQ-001",
+      "type": "feature",
+      "title": "Müşteri iade talebi oluşturma formu",
+      "details": "Müşteri, sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı girerek iade talebi açar. Form yalnızca REQ-003 kapsamındaki geçerli ve daha önce kullanılmamış tek kullanımlık bağlantı üzerinden açılır; bağlantı olmadan veya geçersiz/kullanılmış bağlantıyla forma erişilemez. Üç alan da zorunludur: sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı. Eksik alan varsa talep oluşturulmaz ve ilgili alanda hata mesajı gösterilir. Geçerli gönderimde talep \"inceleme bekliyor\" durumunda oluşur ve operasyon ekibinin inceleme kuyruğuna düşer; aynı bağlantı tekrar kullanılamaz. Pilot kapsamında müşteri hesabı/oturum açma gerekmez; talep sipariş numarası üzerinden ilişkilendirilir.",
+      "rationale": "Müşteri talebini izlenebilir ve kontrollü toplamak: her talep geçerli bir siparişe bağlı tek kullanımlık bağlantıdan gelir, zorunlu alanlar eksiksiz toplanır ve talep operasyon incelemesine düşer.",
+      "status": "accepted",
+      "priority": "must",
+      "acceptance_criteria": [
+        {
+          "title": "Acceptance scenario",
+          "given": "Operasyon uzmanının ürettiği geçerli ve kullanılmamış tek kullanımlık bağlantı",
+          "when": "Müşteri bağlantıyı açar",
+          "then": "İade talebi formu açılır ve sipariş numarası, iade nedeni ve ürün fotoğrafı alanları gösterilir."
+        },
+        {
+          "title": "Acceptance scenario",
+          "given": "Açık formda sipariş numarası, iade nedeni veya ürün fotoğrafı alanlarından en az biri boş",
+          "when": "Müşteri formu göndermeye çalışır",
+          "then": "Talep oluşturulmaz, eksik alanlarda alan hatası gösterilir ve bağlantı kullanılmamış kalır."
+        },
+        {
+          "title": "Acceptance scenario",
+          "given": "Açık formda sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı doldurulmuş",
+          "when": "Müşteri formu gönderir",
+          "then": "İnceleme bekleyen bir iade talebi oluşur ve aynı bağlantı tekrar kullanılamaz."
+        }
+      ],
+      "dependencies": [],
+      "candidate_sources": [
+        "agent:S1"
+      ],
+      "source_event_ids": [
+        "evt_93a2a24f5d964d4aad763c7b9724d093",
+        "evt_d0a4175b6fbb4f52b9be2250318bf24e",
+        "evt_6196f52f7462493297560352934620db"
+      ],
+      "completeness": {
+        "approval": "filled"
+      }
+    },
+    {
+      "id": "REQ-002",
+      "type": "feature",
+      "title": "Operasyon uzmanı inceleme ve kabul/ret kararı",
+      "details": "Operasyon uzmanı gelen iade taleplerini listeler, bir talebi açar; sipariş numarası, iade nedeni ve ürün fotoğrafını inceler; ardından talebi kabul veya ret olarak sonuçlandırır. Karar talebin durumunu günceller. Karar yalnızca operasyonel kayıttır; ödeme/muhasebe/para iadesi tetiklemez.",
+      "rationale": "S1'in ikinci açık yeteneği: operasyon uzmanının inceleme ve karar verme akışı.",
+      "status": "accepted",
+      "priority": "must",
+      "acceptance_criteria": [],
+      "dependencies": [],
+      "candidate_sources": [
+        "agent:S1"
+      ],
+      "source_event_ids": [
+        "evt_93a2a24f5d964d4aad763c7b9724d093",
+        "evt_d0a4175b6fbb4f52b9be2250318bf24e"
+      ],
+      "completeness": {
+        "approval": "filled"
+      }
+    },
+    {
+      "id": "REQ-003",
+      "type": "feature",
+      "title": "Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi",
+      "details": "Operasyon uzmanı, bir sipariş için tek kullanımlık iade talep bağlantısı üretir ve bu bağlantıyı müşterinin sipariş e-postasına manuel olarak gönderir (uygulama otomatik e-posta göndermez; uzman kendi e-posta istemcisini kullanır). Bağlantı yalnızca ilgili sipariş için geçerlidir, tek kullanımdır ve süresi dolabilir. Müşteri bağlantıyı açtığında hesap açmadan iade talebi formunu görür. Pilot kapsamında ERP/Shopify entegrasyonu ve müşteri hesabı yoktur.",
+      "rationale": "S1'in açıkça istediği yeni yetenek: tek kullanımlık bağlantı seçeneği, manuel gönderim, entegrasyon ve hesap açmanın pilotta olmaması.",
+      "status": "accepted",
+      "priority": "must",
+      "acceptance_criteria": [],
+      "dependencies": [],
+      "candidate_sources": [
+        "agent:S1"
+      ],
+      "source_event_ids": [
+        "evt_fb1ac5356905405ea92c5529dd0619af",
+        "evt_d0a4175b6fbb4f52b9be2250318bf24e"
+      ],
+      "completeness": {
+        "approval": "filled"
+      }
+    }
+  ],
+  "excluded_tasks": [],
+  "blocking_reasons": {
+    "scope_coverage": [
+      "Source coverage review is missing or stale."
+    ],
+    "missing_required": [
+      "REQ-001 (Müşteri iade talebi oluşturma formu): dependencies",
+      "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies",
+      "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies"
+    ],
+    "profile_missing": [
+      "target platform",
+      "implementation stack",
+      "scope level",
+      "handoff target"
+    ],
+    "direction_missing": [
+      "target users",
+      "usage context"
+    ],
+    "intake_missing": [
+      "PROFILE-004 Technical profile",
+      "PROFILE-005 Handoff target and output language",
+      "CHARTER-001 Product charter and implementation principles"
+    ]
+  },
+  "open_questions": [],
+  "generated_at": "2026-10-23T12:53:06.094581+00:00",
+  "estimated_tokens": 2185
+}

@@ -1,0 +1,3243 @@
+[
+  {
+    "event_id": "evt_60d18a08395a4412b94c1e28c06d502a",
+    "timestamp": "2026-10-23T06:02:42.145423+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": null,
+    "phase": "onboarding",
+    "type": "session_started",
+    "role": "assistant",
+    "text": "Merhaba! Bugün ne planlamak istiyorsun?",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "opening_message": "Merhaba! Bugün ne planlamak istiyorsun?",
+      "resumed_from_snapshot": false
+    }
+  },
+  {
+    "event_id": "evt_93a2a24f5d964d4aad763c7b9724d093",
+    "timestamp": "2026-10-23T06:02:52.634915+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+    "phase": "onboarding",
+    "type": "user_transcript",
+    "role": "user",
+    "text": "Küçük bir e-ticaret şirketinin iade operasyon ekibi için web uygulaması planlıyoruz. Müşteri sipariş numarası, iade nedeni ve ürün fotoğrafıyla talep açabilsin. Operasyon uzmanı talepleri inceleyip kabul veya ret kararı versin. İlk sürüm kurum içi pilot olacak; ödeme, muhasebe ve otomatik para iadesi kapsam dışında. Gereksinimleri birlikte netleştirelim.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "Küçük bir e-ticaret şirketinin iade operasyon ekibi için web uygulaması planlıyoruz. Müşteri sipariş numarası, iade nedeni ve ürün fotoğrafıyla talep açabilsin. Operasyon uzmanı talepleri inceleyip kabul veya ret kararı versin. İlk sürüm kurum içi pilot olacak; ödeme, muhasebe ve otomatik para iadesi kapsam dışında. Gereksinimleri birlikte netleştirelim."
+    }
+  },
+  {
+    "event_id": "evt_8fed49b9340b45af916f94b6561a3323",
+    "timestamp": "2026-10-23T06:02:52.654184+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+    "phase": "onboarding",
+    "type": "intent_classified",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "intent": "conversation",
+      "confidence": 1.0,
+      "raw_text": "Küçük bir e-ticaret şirketinin iade operasyon ekibi için web uygulaması planlıyoruz. Müşteri sipariş numarası, iade nedeni ve ürün fotoğrafıyla talep açabilsin. Operasyon uzmanı talepleri inceleyip kabul veya ret kararı versin. İlk sürüm kurum içi pilot olacak; ödeme, muhasebe ve otomatik para iadesi kapsam dışında. Gereksinimleri birlikte netleştirelim.",
+      "boundary": "artifact_agent"
+    }
+  },
+  {
+    "event_id": "evt_000dc3c5028e48b59f63ce56c806dd47",
+    "timestamp": "2026-10-23T06:03:08.608608+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+    "phase": null,
+    "type": "artifact_agent_artifacts_committed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [
+      "REQ-001",
+      "REQ-002",
+      "PROFILE-001",
+      "PROFILE-002",
+      "PROFILE-003"
+    ],
+    "affected_req_ids": [
+      "REQ-001",
+      "REQ-002",
+      "PROFILE-001",
+      "PROFILE-002",
+      "PROFILE-003"
+    ],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "created_ids": [
+        "REQ-001",
+        "REQ-002"
+      ],
+      "updated_ids": [
+        "PROFILE-001",
+        "PROFILE-002",
+        "PROFILE-003"
+      ],
+      "resolved_question_ids": [],
+      "context_pack_ids": [
+        "domain.ecommerce",
+        "product_type.internal_admin_tool"
+      ],
+      "proposed_action": null,
+      "approval_response": "",
+      "control_action": null,
+      "req_ids": [
+        "REQ-001",
+        "REQ-002",
+        "PROFILE-001",
+        "PROFILE-002",
+        "PROFILE-003"
+      ],
+      "question_id": "128fdf16",
+      "mutation": true
+    }
+  },
+  {
+    "event_id": "evt_5f46492aed674a11af73f7a9addd33ce",
+    "timestamp": "2026-10-23T06:03:08.619812+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 1585,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 6309,
+      "message_count": 1,
+      "tool_schema_chars": 8809,
+      "tool_count": 10,
+      "max_tokens": 3600,
+      "input_tokens": 4726,
+      "output_tokens": 45,
+      "total_tokens": 4771,
+      "cache_read_tokens": 0,
+      "cache_miss_tokens": 4726,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 68
+    }
+  },
+  {
+    "event_id": "evt_addb977be73f4c27b7b5328a657ee860",
+    "timestamp": "2026-10-23T06:03:08.631072+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 14171,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 10744,
+      "message_count": 3,
+      "tool_schema_chars": 8809,
+      "tool_count": 10,
+      "max_tokens": 3600,
+      "input_tokens": 5823,
+      "output_tokens": 3194,
+      "total_tokens": 9017,
+      "cache_read_tokens": 1280,
+      "cache_miss_tokens": 4543,
+      "response_text_chars": 0,
+      "tool_call_count": 6,
+      "tool_argument_chars": 6151
+    }
+  },
+  {
+    "event_id": "evt_bdfa8b3280054a8c9f350add0fb84e26",
+    "timestamp": "2026-10-23T06:03:08.641815+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+    "phase": "onboarding",
+    "type": "artifact_agent_turn_completed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "model_rounds": 2,
+      "tool_calls": 7,
+      "tool_trace": [
+        {
+          "round": 1,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 1586.54,
+          "local_exec_ms": 6.17,
+          "tokens": 4771,
+          "calls": [
+            {
+              "name": "load_context",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 14171.72,
+          "local_exec_ms": 0.53,
+          "tokens": 9017,
+          "calls": [
+            {
+              "name": "revise_artifact",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "revise_artifact",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "revise_artifact",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "create_candidate",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "create_candidate",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "ask_decision",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": true
+            }
+          ]
+        }
+      ],
+      "created_ids": [
+        "REQ-001",
+        "REQ-002"
+      ],
+      "updated_ids": [
+        "PROFILE-001",
+        "PROFILE-002",
+        "PROFILE-003"
+      ],
+      "resolved_question_ids": [],
+      "proposed_action": false
+    }
+  },
+  {
+    "event_id": "evt_0a351a8ddcbd4a89828baf05e13635e7",
+    "timestamp": "2026-10-23T06:03:08.656934+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+    "phase": "iteration",
+    "type": "phase_transition",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "to": "iteration"
+    }
+  },
+  {
+    "event_id": "evt_d264f1bf3f8e4e9fb6721f0ade5a1cc2",
+    "timestamp": "2026-10-23T06:03:08.671223+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+    "phase": "iteration",
+    "type": "assistant_response",
+    "role": "assistant",
+    "text": "Özetledim: iki yüzeyli bir iade operasyon uygulaması — müşteri tarafında sipariş no + neden + fotoğrafla talep açma, operasyon tarafında inceleme ve kabul/ret. Ödeme, muhasebe ve otomatik para iadesi pilot kapsamı dışında; kabul kararı sadece operasyonel bir kayıt olarak kalacak.\n\nPilot için en kritik belirsizlik, müşterinin talebi nasıl açtığı: bu, kimlik doğrulama, sipariş verisi entegrasyonu ve kötüye kullanım riskini doğrudan belirliyor. Sipariş numarası tek başına tahmin edilebilir bir bilgi olduğu için, herkese açık bir formda yalnızca sipariş no ile talep açtırmak sahte taleplere ve başkasının siparişine erişime yol açabilir. Kurum içi pilotta en pratik çözüm genelde, müşteriye e-posta/SMS ile tek kullanımlık bir talep bağlantısı göndermek ya da formu operasyon ekibinin müşteri adına doldurduğu bir akışa çevirmek.\n\nÖnerim: Sipariş numarası + e-posta ile eşleşen tek kullanımlık talep bağlantısı. Herkese açık formun sadeliğini korurken talebi gerçek sipariş sahibine bağlar; pilot için hesap/şifre altyapısı gerektirmez ve ileride self-servis ürüne doğal geçiş sağlar.\n\nPilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?\n\n- Sipariş no + e-posta eşleşmesiyle tek kullanımlık bağlantı: Müşteri sipariş no ve e-postasını girer; eşleşirse e-posta ile talep formu bağlantısı gönderilir. Hesap yok, doğrulama var.\n- Herkese açık form, yalnızca sipariş numarası: En hızlı pilot; ancak sahte talep ve başkasının siparişine erişim riski kabul edilir.\n- Operasyon ekibi müşteri adına talep açar: Müşteri formu yok; talepler telefon/e-posta ile gelir, uzman sisteme girer. En düşük geliştirme yükü, en yüksek manuel iş.\n- Müşteri hesabı ile giriş: Kalıcı hesap ve oturum yönetimi; pilot için ek kapsam ve geliştirme yükü getirir.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "Özetledim: iki yüzeyli bir iade operasyon uygulaması — müşteri tarafında sipariş no + neden + fotoğrafla talep açma, operasyon tarafında inceleme ve kabul/ret. Ödeme, muhasebe ve otomatik para iadesi pilot kapsamı dışında; kabul kararı sadece operasyonel bir kayıt olarak kalacak.\n\nPilot için en kritik belirsizlik, müşterinin talebi nasıl açtığı: bu, kimlik doğrulama, sipariş verisi entegrasyonu ve kötüye kullanım riskini doğrudan belirliyor. Sipariş numarası tek başına tahmin edilebilir bir bilgi olduğu için, herkese açık bir formda yalnızca sipariş no ile talep açtırmak sahte taleplere ve başkasının siparişine erişime yol açabilir. Kurum içi pilotta en pratik çözüm genelde, müşteriye e-posta/SMS ile tek kullanımlık bir talep bağlantısı göndermek ya da formu operasyon ekibinin müşteri adına doldurduğu bir akışa çevirmek.\n\nÖnerim: Sipariş numarası + e-posta ile eşleşen tek kullanımlık talep bağlantısı. Herkese açık formun sadeliğini korurken talebi gerçek sipariş sahibine bağlar; pilot için hesap/şifre altyapısı gerektirmez ve ileride self-servis ürüne doğal geçiş sağlar.\n\nPilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?\n\n- Sipariş no + e-posta eşleşmesiyle tek kullanımlık bağlantı: Müşteri sipariş no ve e-postasını girer; eşleşirse e-posta ile talep formu bağlantısı gönderilir. Hesap yok, doğrulama var.\n- Herkese açık form, yalnızca sipariş numarası: En hızlı pilot; ancak sahte talep ve başkasının siparişine erişim riski kabul edilir.\n- Operasyon ekibi müşteri adına talep açar: Müşteri formu yok; talepler telefon/e-posta ile gelir, uzman sisteme girer. En düşük geliştirme yükü, en yüksek manuel iş.\n- Müşteri hesabı ile giriş: Kalıcı hesap ve oturum yönetimi; pilot için ek kapsam ve geliştirme yükü getirir.",
+      "reasoning_state": {
+        "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+        "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+        "project_profile": {
+          "target_user": "",
+          "usage_context": "",
+          "business_model": "",
+          "target_platform": "",
+          "scope_level": "",
+          "handoff_target": "",
+          "strictness": "standard",
+          "conversation_language": "tr",
+          "output_language": "tr",
+          "handoff_language": ""
+        },
+        "context_pack_ids": [
+          "domain.ecommerce",
+          "product_type.internal_admin_tool"
+        ],
+        "context_source_ids": [],
+        "context_briefs": [],
+        "known_facts": [],
+        "unknowns": [
+          {
+            "id": "128fdf16",
+            "description": "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?",
+            "risk_level": "high",
+            "status": "asked",
+            "times_asked": 1,
+            "assumption": "",
+            "resolved_by": "",
+            "source": "artifact_agent",
+            "profile_field": "",
+            "intake_fields": [],
+            "artifact_ids": [
+              "PROFILE-002",
+              "PROFILE-003"
+            ],
+            "question_kind": "decision",
+            "question_reason": "Müşteri erişim modeli; kimlik doğrulama, sipariş verisi entegrasyonu ve kötüye kullanım koruması gereksinimlerini belirleyen en yüksek riskli karar.",
+            "recommended_option": "Sipariş numarası + e-posta ile eşleşen tek kullanımlık talep bağlantısı",
+            "recommendation_reason": "Herkese açık formun sadeliğini korurken talebi gerçek sipariş sahibine bağlar; pilot için hesap/şifre altyapısı gerektirmez ve ileride self-servis ürüne doğal geçiş sağlar.",
+            "options": [
+              {
+                "label": "Sipariş no + e-posta eşleşmesiyle tek kullanımlık bağlantı",
+                "tradeoff": "Müşteri sipariş no ve e-postasını girer; eşleşirse e-posta ile talep formu bağlantısı gönderilir. Hesap yok, doğrulama var."
+              },
+              {
+                "label": "Herkese açık form, yalnızca sipariş numarası",
+                "tradeoff": "En hızlı pilot; ancak sahte talep ve başkasının siparişine erişim riski kabul edilir."
+              },
+              {
+                "label": "Operasyon ekibi müşteri adına talep açar",
+                "tradeoff": "Müşteri formu yok; talepler telefon/e-posta ile gelir, uzman sisteme girer. En düşük geliştirme yükü, en yüksek manuel iş."
+              },
+              {
+                "label": "Müşteri hesabı ile giriş",
+                "tradeoff": "Kalıcı hesap ve oturum yönetimi; pilot için ek kapsam ve geliştirme yükü getirir."
+              }
+            ]
+          }
+        ],
+        "assumptions": [],
+        "decisions": [],
+        "explicit_non_goals": [],
+        "open_questions": [
+          "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?"
+        ],
+        "last_asked_unknown_id": "128fdf16",
+        "last_asked_question": "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?",
+        "questions_asked_this_turn": 0,
+        "total_questions_asked": 1,
+        "handoff_readiness": {
+          "score": 0,
+          "ready": false,
+          "blockers": [
+            "Source coverage review is missing or stale.",
+            "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?",
+            "Required intake record incomplete: PROFILE-004 (Technical profile)",
+            "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+            "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)",
+            "REQ-001 (Müşteri iade talebi oluşturma formu)",
+            "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı)",
+            "No accepted or ready requirements exist."
+          ],
+          "missing_fields": [],
+          "blocking_reasons": {
+            "scope_coverage": [
+              "Source coverage review is missing or stale."
+            ],
+            "requirement_unknowns": [
+              "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?"
+            ],
+            "intake": [
+              "Required intake record incomplete: PROFILE-004 (Technical profile)",
+              "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+              "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)"
+            ],
+            "candidate_scope": [
+              "REQ-001 (Müşteri iade talebi oluşturma formu)",
+              "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı)"
+            ],
+            "scope": [
+              "No accepted or ready requirements exist."
+            ]
+          },
+          "dimensions": {
+            "profile": "blocked",
+            "source_coverage": "blocked",
+            "scope": "blocked",
+            "functional_behavior": "ok",
+            "edge_cases": "ok",
+            "acceptance_criteria": "ok",
+            "dependencies": "ok",
+            "out_of_scope": "blocked",
+            "traceability": "ok",
+            "risk": "blocked"
+          }
+        },
+        "scope_coverage": {
+          "status": "needs_review",
+          "current": false,
+          "reviewed_spec_head": "",
+          "gaps": [],
+          "unsupported_assumptions": [],
+          "summary": "Artifact agent changed project scope."
+        },
+        "candidate_review": {
+          "pending_req_ids": [
+            "REQ-001",
+            "REQ-002"
+          ],
+          "source_turn_id": "bb921015-238a-4466-8269-4683e25230dd",
+          "prompt": "Bu aday dilimi review bekliyor: REQ-001, REQ-002. Aday olarak beklet, backlog'a al, kapsam disi yap veya duzeltme isteyebilirsin. Accepted scope'a almak ayri onay ister.",
+          "reason": "artifact_agent_candidate_change"
+        },
+        "plan_deltas": [],
+        "updated_at": "2026-10-23T06:03:08.602915Z"
+      }
+    }
+  },
+  {
+    "event_id": "evt_fb1ac5356905405ea92c5529dd0619af",
+    "timestamp": "2026-10-23T06:04:12.909892+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "user_transcript",
+    "role": "user",
+    "text": "Tek kullanımlık bağlantı seçeneğini alalım. Linki operasyon uzmanı müşterinin sipariş e-postasına manuel göndersin; ERP/Shopify entegrasyonu ve hesap açma ilk pilotta olmasın. Oluşturduğun iki aday gereksinimi bu sınırlarla MVP kapsamına kabul etmek istiyorum. Onay teklifini göster.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "Tek kullanımlık bağlantı seçeneğini alalım. Linki operasyon uzmanı müşterinin sipariş e-postasına manuel göndersin; ERP/Shopify entegrasyonu ve hesap açma ilk pilotta olmasın. Oluşturduğun iki aday gereksinimi bu sınırlarla MVP kapsamına kabul etmek istiyorum. Onay teklifini göster."
+    }
+  },
+  {
+    "event_id": "evt_42c3d844da694f6cb504c7769e5d4faf",
+    "timestamp": "2026-10-23T06:04:12.926692+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "intent_classified",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "intent": "conversation",
+      "confidence": 1.0,
+      "raw_text": "Tek kullanımlık bağlantı seçeneğini alalım. Linki operasyon uzmanı müşterinin sipariş e-postasına manuel göndersin; ERP/Shopify entegrasyonu ve hesap açma ilk pilotta olmasın. Oluşturduğun iki aday gereksinimi bu sınırlarla MVP kapsamına kabul etmek istiyorum. Onay teklifini göster.",
+      "boundary": "artifact_agent"
+    }
+  },
+  {
+    "event_id": "evt_0a45a22d4d15496a953ed0867e3b3011",
+    "timestamp": "2026-10-23T06:04:30.095128+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": null,
+    "type": "artifact_agent_artifacts_committed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [
+      "REQ-003"
+    ],
+    "affected_req_ids": [
+      "REQ-003"
+    ],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "created_ids": [
+        "REQ-003"
+      ],
+      "updated_ids": [],
+      "resolved_question_ids": [
+        "128fdf16"
+      ],
+      "context_pack_ids": [],
+      "proposed_action": {
+        "command_type": "update_item",
+        "payload": {
+          "req_id": "PROFILE-003",
+          "details": "Kapsam düzeyi: ilk sürüm, kurum içi pilot (MVP). Kapsam içi: müşteri iade talebi oluşturma (sipariş no + neden + ürün fotoğrafı), operasyon uzmanının inceleme ve kabul/ret kararı, tek kullanımlık talep bağlantısının operasyon uzmanı tarafından müşterinin sipariş e-postasına manuel gönderilmesi. Açık kapsam dışı: ödeme, muhasebe ve otomatik para iadesi; ayrıca ilk pilotta ERP/Shopify entegrasyonu ve müşteri hesabı açma yok. Kabul kararı yalnızca operasyonel kayıttır.",
+          "status": "ready_for_handoff",
+          "blocking": false,
+          "completeness": {
+            "need_problem": "filled",
+            "functional_requirement": "filled",
+            "inputs": "filled",
+            "outputs": "filled",
+            "behavior": "filled",
+            "edge_cases": "filled",
+            "acceptance_criteria": "filled",
+            "rationale": "filled",
+            "priority": "filled",
+            "dependencies": "filled",
+            "out_of_scope": "filled",
+            "source_traceability": "filled"
+          }
+        },
+        "spoken_summary": "PROFILE-003 için kapsam/tanım güncellemesini uygulayayım mı?",
+        "requires_explicit_confirm": true
+      },
+      "approval_response": "PROFILE-003 için kapsam/tanım güncellemesini uygulayayım mı? Önerilen metin: \"Kapsam düzeyi: ilk sürüm, kurum içi pilot (MVP). Kapsam içi: müşteri iade talebi oluşturma (sipariş no + neden + ürün fo...\" Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.",
+      "control_action": null,
+      "req_ids": [
+        "REQ-003"
+      ],
+      "question_id": "",
+      "mutation": true
+    }
+  },
+  {
+    "event_id": "evt_ee93d03a72cd4c0588bff492546365ea",
+    "timestamp": "2026-10-23T06:04:30.110658+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 7708,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 12708,
+      "message_count": 1,
+      "tool_schema_chars": 9223,
+      "tool_count": 11,
+      "max_tokens": 3600,
+      "input_tokens": 6806,
+      "output_tokens": 1838,
+      "total_tokens": 8644,
+      "cache_read_tokens": 1280,
+      "cache_miss_tokens": 5526,
+      "response_text_chars": 0,
+      "tool_call_count": 5,
+      "tool_argument_chars": 3387
+    }
+  },
+  {
+    "event_id": "evt_2c64f84cb7bb4a4f94a28cda6b5c2ddf",
+    "timestamp": "2026-10-23T06:04:30.128248+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 1908,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 13293,
+      "message_count": 7,
+      "tool_schema_chars": 9223,
+      "tool_count": 11,
+      "max_tokens": 3600,
+      "input_tokens": 8861,
+      "output_tokens": 274,
+      "total_tokens": 9135,
+      "cache_read_tokens": 8576,
+      "cache_miss_tokens": 285,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 566
+    }
+  },
+  {
+    "event_id": "evt_c3b2e803a6724935bc2127d3e42383f2",
+    "timestamp": "2026-10-23T06:04:30.143648+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 2274,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 13423,
+      "message_count": 9,
+      "tool_schema_chars": 9223,
+      "tool_count": 11,
+      "max_tokens": 3600,
+      "input_tokens": 9182,
+      "output_tokens": 274,
+      "total_tokens": 9456,
+      "cache_read_tokens": 8960,
+      "cache_miss_tokens": 222,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 566
+    }
+  },
+  {
+    "event_id": "evt_6ae2ea0b42334a3c807e13047813149c",
+    "timestamp": "2026-10-23T06:04:30.160953+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 1968,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 13553,
+      "message_count": 11,
+      "tool_schema_chars": 9223,
+      "tool_count": 11,
+      "max_tokens": 3600,
+      "input_tokens": 9503,
+      "output_tokens": 215,
+      "total_tokens": 9718,
+      "cache_read_tokens": 9344,
+      "cache_miss_tokens": 159,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 419
+    }
+  },
+  {
+    "event_id": "evt_b5617a17b13a4f38be12753e0238079b",
+    "timestamp": "2026-10-23T06:04:30.201078+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 3146,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 13683,
+      "message_count": 13,
+      "tool_schema_chars": 9223,
+      "tool_count": 11,
+      "max_tokens": 3600,
+      "input_tokens": 9765,
+      "output_tokens": 367,
+      "total_tokens": 10132,
+      "cache_read_tokens": 9600,
+      "cache_miss_tokens": 165,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 860
+    }
+  },
+  {
+    "event_id": "evt_097df7213dc7415e8a4b965edff51cec",
+    "timestamp": "2026-10-23T06:04:30.223487+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "artifact_agent_turn_completed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "model_rounds": 5,
+      "tool_calls": 9,
+      "tool_trace": [
+        {
+          "round": 1,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 7709.45,
+          "local_exec_ms": 4.99,
+          "tokens": 8644,
+          "calls": [
+            {
+              "name": "resolve_question",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "revise_artifact",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "revise_artifact",
+              "ok": false,
+              "error": "multiple_approval_commands",
+              "message": "Only one approval-gated command may be proposed per turn.",
+              "terminal": false
+            },
+            {
+              "name": "create_candidate",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "propose_lifecycle",
+              "ok": false,
+              "error": "invalid_arguments",
+              "message": "steps.0.reason: Field required (input={'artifact_ids': ['REQ-001'], 'decision': 'accept'}); steps.1.reason: Field required (input={'artifact_ids': ['REQ-002'], 'decision': 'accept'})",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 1908.63,
+          "local_exec_ms": 0.38,
+          "tokens": 9135,
+          "calls": [
+            {
+              "name": "propose_lifecycle",
+              "ok": false,
+              "error": "multiple_approval_commands",
+              "message": "Only one approval-gated command may be proposed per turn.",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 2274.51,
+          "local_exec_ms": 0.1,
+          "tokens": 9456,
+          "calls": [
+            {
+              "name": "propose_lifecycle",
+              "ok": false,
+              "error": "multiple_approval_commands",
+              "message": "Only one approval-gated command may be proposed per turn.",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 1969.38,
+          "local_exec_ms": 0.11,
+          "tokens": 9718,
+          "calls": [
+            {
+              "name": "propose_lifecycle",
+              "ok": false,
+              "error": "multiple_approval_commands",
+              "message": "Only one approval-gated command may be proposed per turn.",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 3147.2,
+          "local_exec_ms": 0.33,
+          "tokens": 10132,
+          "calls": [
+            {
+              "name": "finish_turn",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": true
+            }
+          ]
+        }
+      ],
+      "created_ids": [
+        "REQ-003"
+      ],
+      "updated_ids": [],
+      "resolved_question_ids": [
+        "128fdf16"
+      ],
+      "proposed_action": true
+    }
+  },
+  {
+    "event_id": "evt_bfdb1d828e87490ea1d4bb8e8fd12f31",
+    "timestamp": "2026-10-23T06:04:30.243779+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "semantic_action_draft_rejected",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "reason": "command_policy_rejected",
+      "command_type": "update_item",
+      "mutation": false
+    }
+  },
+  {
+    "event_id": "evt_d2430c6550b4428bb745f412b65d918c",
+    "timestamp": "2026-10-23T06:04:30.263760+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+    "turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+    "phase": "iteration",
+    "type": "assistant_response",
+    "role": "assistant",
+    "text": "PROFILE-003 için kapsam/tanım güncellemesini uygulayayım mı? Önerilen metin: \"Kapsam düzeyi: ilk sürüm, kurum içi pilot (MVP). Kapsam içi: müşteri iade talebi oluşturma (sipariş no + neden + ürün fo...\" Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.\n\nNot: Onerilen islem server command-policy dogrulamasini gecmedi; onay kuyrugu veya state degisikligi olusturulmadi.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "PROFILE-003 için kapsam/tanım güncellemesini uygulayayım mı? Önerilen metin: \"Kapsam düzeyi: ilk sürüm, kurum içi pilot (MVP). Kapsam içi: müşteri iade talebi oluşturma (sipariş no + neden + ürün fo...\" Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.\n\nNot: Onerilen islem server command-policy dogrulamasini gecmedi; onay kuyrugu veya state degisikligi olusturulmadi.",
+      "reasoning_state": {
+        "session_id": "f0e9b91a-7299-4058-9675-2e1fa10544aa",
+        "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+        "project_profile": {
+          "target_user": "",
+          "usage_context": "",
+          "business_model": "",
+          "target_platform": "",
+          "scope_level": "",
+          "handoff_target": "",
+          "strictness": "standard",
+          "conversation_language": "tr",
+          "output_language": "tr",
+          "handoff_language": ""
+        },
+        "context_pack_ids": [
+          "domain.ecommerce",
+          "product_type.internal_admin_tool"
+        ],
+        "context_source_ids": [],
+        "context_briefs": [],
+        "known_facts": [],
+        "unknowns": [
+          {
+            "id": "128fdf16",
+            "description": "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?",
+            "risk_level": "high",
+            "status": "resolved",
+            "times_asked": 1,
+            "assumption": "",
+            "resolved_by": "Pilot sürümde müşteri erişim modeli: tek kullanımlık talep bağlantısı. Operasyon uzmanı bağlantıyı müşterinin sipariş e-postasına manuel gönderir. ERP/Shopify entegrasyonu ve müşteri hesabı açma ilk pilotta kapsam dışı.",
+            "source": "artifact_agent",
+            "profile_field": "",
+            "intake_fields": [],
+            "artifact_ids": [
+              "PROFILE-002",
+              "PROFILE-003"
+            ],
+            "question_kind": "decision",
+            "question_reason": "Müşteri erişim modeli; kimlik doğrulama, sipariş verisi entegrasyonu ve kötüye kullanım koruması gereksinimlerini belirleyen en yüksek riskli karar.",
+            "recommended_option": "Sipariş numarası + e-posta ile eşleşen tek kullanımlık talep bağlantısı",
+            "recommendation_reason": "Herkese açık formun sadeliğini korurken talebi gerçek sipariş sahibine bağlar; pilot için hesap/şifre altyapısı gerektirmez ve ileride self-servis ürüne doğal geçiş sağlar.",
+            "options": [
+              {
+                "label": "Sipariş no + e-posta eşleşmesiyle tek kullanımlık bağlantı",
+                "tradeoff": "Müşteri sipariş no ve e-postasını girer; eşleşirse e-posta ile talep formu bağlantısı gönderilir. Hesap yok, doğrulama var."
+              },
+              {
+                "label": "Herkese açık form, yalnızca sipariş numarası",
+                "tradeoff": "En hızlı pilot; ancak sahte talep ve başkasının siparişine erişim riski kabul edilir."
+              },
+              {
+                "label": "Operasyon ekibi müşteri adına talep açar",
+                "tradeoff": "Müşteri formu yok; talepler telefon/e-posta ile gelir, uzman sisteme girer. En düşük geliştirme yükü, en yüksek manuel iş."
+              },
+              {
+                "label": "Müşteri hesabı ile giriş",
+                "tradeoff": "Kalıcı hesap ve oturum yönetimi; pilot için ek kapsam ve geliştirme yükü getirir."
+              }
+            ]
+          }
+        ],
+        "assumptions": [],
+        "decisions": [
+          "Pilot sürümde müşteri erişim modeli: tek kullanımlık talep bağlantısı. Operasyon uzmanı bağlantıyı müşterinin sipariş e-postasına manuel gönderir. ERP/Shopify entegrasyonu ve müşteri hesabı açma ilk pilotta kapsam dışı."
+        ],
+        "explicit_non_goals": [],
+        "open_questions": [],
+        "last_asked_unknown_id": "",
+        "last_asked_question": "",
+        "questions_asked_this_turn": 0,
+        "total_questions_asked": 1,
+        "handoff_readiness": {
+          "score": 0,
+          "ready": false,
+          "blockers": [
+            "Source coverage review is missing or stale.",
+            "Required intake record incomplete: PROFILE-004 (Technical profile)",
+            "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+            "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)",
+            "REQ-001 (Müşteri iade talebi oluşturma formu)",
+            "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı)",
+            "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi)",
+            "No accepted or ready requirements exist."
+          ],
+          "missing_fields": [],
+          "blocking_reasons": {
+            "scope_coverage": [
+              "Source coverage review is missing or stale."
+            ],
+            "intake": [
+              "Required intake record incomplete: PROFILE-004 (Technical profile)",
+              "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+              "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)"
+            ],
+            "candidate_scope": [
+              "REQ-001 (Müşteri iade talebi oluşturma formu)",
+              "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı)",
+              "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi)"
+            ],
+            "scope": [
+              "No accepted or ready requirements exist."
+            ]
+          },
+          "dimensions": {
+            "profile": "blocked",
+            "source_coverage": "blocked",
+            "scope": "blocked",
+            "functional_behavior": "ok",
+            "edge_cases": "ok",
+            "acceptance_criteria": "ok",
+            "dependencies": "ok",
+            "out_of_scope": "blocked",
+            "traceability": "ok",
+            "risk": "ok"
+          }
+        },
+        "scope_coverage": {
+          "status": "needs_review",
+          "current": false,
+          "reviewed_spec_head": "",
+          "gaps": [],
+          "unsupported_assumptions": [],
+          "summary": "Artifact agent changed project scope."
+        },
+        "candidate_review": {
+          "pending_req_ids": [
+            "REQ-001",
+            "REQ-002",
+            "REQ-003"
+          ],
+          "source_turn_id": "2e6051ce-10ff-461c-9cb9-8efdc4638058",
+          "prompt": "Bu aday dilimi review bekliyor: REQ-001, REQ-002, REQ-003. Aday olarak beklet, backlog'a al, kapsam disi yap veya duzeltme isteyebilirsin. Accepted scope'a almak ayri onay ister.",
+          "reason": "artifact_agent_candidate_change"
+        },
+        "plan_deltas": [],
+        "updated_at": "2026-10-23T06:04:30.089115Z"
+      }
+    }
+  },
+  {
+    "event_id": "evt_05e2154d122b4cc6b53fc8b4de787771",
+    "timestamp": "2026-10-23T06:13:32.829122+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": null,
+    "phase": "onboarding",
+    "type": "session_started",
+    "role": "assistant",
+    "text": "Merhaba! Bugün ne planlamak istiyorsun?",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "opening_message": "Merhaba! Bugün ne planlamak istiyorsun?",
+      "resumed_from_snapshot": true
+    }
+  },
+  {
+    "event_id": "evt_8135e06dcf9644d9ae6aa6bf2f16e679",
+    "timestamp": "2026-10-23T06:13:32.882197+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe",
+    "phase": "onboarding",
+    "type": "user_transcript",
+    "role": "user",
+    "text": "Önce yalnız kapsam profilini güncelleyelim: ilk pilotta ödeme, muhasebe, ERP/Shopify entegrasyonu ve müşteri hesabı açma kesinlikle kapsam dışında kalacak. Bu profil değişikliği için açık onay teklifini göster; adayların kabulünü sonraki turda yapacağız.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "Önce yalnız kapsam profilini güncelleyelim: ilk pilotta ödeme, muhasebe, ERP/Shopify entegrasyonu ve müşteri hesabı açma kesinlikle kapsam dışında kalacak. Bu profil değişikliği için açık onay teklifini göster; adayların kabulünü sonraki turda yapacağız."
+    }
+  },
+  {
+    "event_id": "evt_963c8b30703e4330bf6e8e7a4cb208fa",
+    "timestamp": "2026-10-23T06:13:32.893822+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe",
+    "phase": "onboarding",
+    "type": "intent_classified",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "intent": "conversation",
+      "confidence": 1.0,
+      "raw_text": "Önce yalnız kapsam profilini güncelleyelim: ilk pilotta ödeme, muhasebe, ERP/Shopify entegrasyonu ve müşteri hesabı açma kesinlikle kapsam dışında kalacak. Bu profil değişikliği için açık onay teklifini göster; adayların kabulünü sonraki turda yapacağız.",
+      "boundary": "artifact_agent"
+    }
+  },
+  {
+    "event_id": "evt_5ea6e0536a2840ab90c5750f39ae71f6",
+    "timestamp": "2026-10-23T06:13:39.806765+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 4072,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 12572,
+      "message_count": 1,
+      "tool_schema_chars": 8809,
+      "tool_count": 10,
+      "max_tokens": 3600,
+      "input_tokens": 6619,
+      "output_tokens": 792,
+      "total_tokens": 7411,
+      "cache_read_tokens": 3072,
+      "cache_miss_tokens": 3547,
+      "response_text_chars": 0,
+      "tool_call_count": 2,
+      "tool_argument_chars": 1448
+    }
+  },
+  {
+    "event_id": "evt_c9f8085159d1488989889942fc260621",
+    "timestamp": "2026-10-23T06:13:39.819983+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 2744,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 12791,
+      "message_count": 4,
+      "tool_schema_chars": 8809,
+      "tool_count": 10,
+      "max_tokens": 3600,
+      "input_tokens": 7493,
+      "output_tokens": 337,
+      "total_tokens": 7830,
+      "cache_read_tokens": 7296,
+      "cache_miss_tokens": 197,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 798
+    }
+  },
+  {
+    "event_id": "evt_07f771b8352948968284fa286ea95aa7",
+    "timestamp": "2026-10-23T06:13:39.831719+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe",
+    "phase": "onboarding",
+    "type": "artifact_agent_turn_completed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "model_rounds": 2,
+      "tool_calls": 3,
+      "tool_trace": [
+        {
+          "round": 1,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 4073.37,
+          "local_exec_ms": 0.13,
+          "tokens": 7411,
+          "calls": [
+            {
+              "name": "revise_artifact",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            },
+            {
+              "name": "propose_lifecycle",
+              "ok": false,
+              "error": "multiple_approval_commands",
+              "message": "Only one approval-gated command may be proposed per turn.",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 2745.0,
+          "local_exec_ms": 0.03,
+          "tokens": 7830,
+          "calls": [
+            {
+              "name": "finish_turn",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": true
+            }
+          ]
+        }
+      ],
+      "created_ids": [],
+      "updated_ids": [],
+      "resolved_question_ids": [],
+      "proposed_action": true
+    }
+  },
+  {
+    "event_id": "evt_2310cb30ddea407d907cfd8f52487559",
+    "timestamp": "2026-10-23T06:13:39.845993+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe",
+    "phase": "onboarding",
+    "type": "pending_command_created",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [
+      "PROFILE-003"
+    ],
+    "affected_req_ids": [
+      "PROFILE-003"
+    ],
+    "decision_ids": [],
+    "command_id": "314b0917-5750-4062-b922-0d510b945239",
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "command_id": "314b0917-5750-4062-b922-0d510b945239",
+      "command_type": "update_item",
+      "payload": {
+        "req_id": "PROFILE-003",
+        "details": "Kapsam düzeyi: ilk sürüm, kurum içi pilot (MVP). Kapsam içi: müşteri iade talebi oluşturma (sipariş no + neden + ürün fotoğrafı), operasyon uzmanının inceleme ve kabul/ret kararı, tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi. Açık kapsam dışı (pilot sürümde hiçbir şekilde uygulanmayacak): (1) ödeme ve para iadesi, (2) muhasebe, (3) ERP/Shopify entegrasyonu, (4) müşteri hesabı açma / oturum açma. Kabul kararı yalnızca operasyonel kayıttır; ödeme, muhasebe veya entegrasyon tetiklemez. Sipariş verisi pilotta uygulama içinde tutulur/elle girilir; dış sistemden çekilmez.",
+        "rationale": "S1 pilot kapsam dışı listesini dört alana genişletiyor: ödeme, muhasebe, ERP/Shopify entegrasyonu ve müşteri hesabı açma. Bu dört alan pilotta kesinlikle kapsam dışı."
+      },
+      "spoken_summary": "PROFILE-003 için kapsam/tanım, gerekçe güncellemesini uygulayayım mı?",
+      "approval_mode": "explicit",
+      "requires_explicit_confirm": true,
+      "source_turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe"
+    }
+  },
+  {
+    "event_id": "evt_64365937f158469d906f835df2d2041c",
+    "timestamp": "2026-10-23T06:13:39.860489+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe",
+    "phase": "onboarding",
+    "type": "assistant_response",
+    "role": "assistant",
+    "text": "PROFILE-003 için kapsam/tanım, gerekçe güncellemesini uygulayayım mı? Önerilen metin: \"Kapsam düzeyi: ilk sürüm, kurum içi pilot (MVP). Kapsam içi: müşteri iade talebi oluşturma (sipariş no + neden + ürün fo...\" Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "PROFILE-003 için kapsam/tanım, gerekçe güncellemesini uygulayayım mı? Önerilen metin: \"Kapsam düzeyi: ilk sürüm, kurum içi pilot (MVP). Kapsam içi: müşteri iade talebi oluşturma (sipariş no + neden + ürün fo...\" Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.",
+      "reasoning_state": {
+        "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+        "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+        "project_profile": {
+          "target_user": "",
+          "usage_context": "",
+          "business_model": "",
+          "target_platform": "",
+          "scope_level": "",
+          "handoff_target": "",
+          "strictness": "standard",
+          "conversation_language": "tr",
+          "output_language": "tr",
+          "handoff_language": ""
+        },
+        "context_pack_ids": [
+          "domain.ecommerce",
+          "product_type.internal_admin_tool"
+        ],
+        "context_source_ids": [],
+        "context_briefs": [],
+        "known_facts": [],
+        "unknowns": [
+          {
+            "id": "128fdf16",
+            "description": "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?",
+            "risk_level": "high",
+            "status": "resolved",
+            "times_asked": 1,
+            "assumption": "",
+            "resolved_by": "Pilot sürümde müşteri erişim modeli: tek kullanımlık talep bağlantısı. Operasyon uzmanı bağlantıyı müşterinin sipariş e-postasına manuel gönderir. ERP/Shopify entegrasyonu ve müşteri hesabı açma ilk pilotta kapsam dışı.",
+            "source": "artifact_agent",
+            "profile_field": "",
+            "intake_fields": [],
+            "artifact_ids": [
+              "PROFILE-002",
+              "PROFILE-003"
+            ],
+            "question_kind": "decision",
+            "question_reason": "Müşteri erişim modeli; kimlik doğrulama, sipariş verisi entegrasyonu ve kötüye kullanım koruması gereksinimlerini belirleyen en yüksek riskli karar.",
+            "recommended_option": "Sipariş numarası + e-posta ile eşleşen tek kullanımlık talep bağlantısı",
+            "recommendation_reason": "Herkese açık formun sadeliğini korurken talebi gerçek sipariş sahibine bağlar; pilot için hesap/şifre altyapısı gerektirmez ve ileride self-servis ürüne doğal geçiş sağlar.",
+            "options": [
+              {
+                "label": "Sipariş no + e-posta eşleşmesiyle tek kullanımlık bağlantı",
+                "tradeoff": "Müşteri sipariş no ve e-postasını girer; eşleşirse e-posta ile talep formu bağlantısı gönderilir. Hesap yok, doğrulama var."
+              },
+              {
+                "label": "Herkese açık form, yalnızca sipariş numarası",
+                "tradeoff": "En hızlı pilot; ancak sahte talep ve başkasının siparişine erişim riski kabul edilir."
+              },
+              {
+                "label": "Operasyon ekibi müşteri adına talep açar",
+                "tradeoff": "Müşteri formu yok; talepler telefon/e-posta ile gelir, uzman sisteme girer. En düşük geliştirme yükü, en yüksek manuel iş."
+              },
+              {
+                "label": "Müşteri hesabı ile giriş",
+                "tradeoff": "Kalıcı hesap ve oturum yönetimi; pilot için ek kapsam ve geliştirme yükü getirir."
+              }
+            ]
+          }
+        ],
+        "assumptions": [],
+        "decisions": [
+          "Pilot sürümde müşteri erişim modeli: tek kullanımlık talep bağlantısı. Operasyon uzmanı bağlantıyı müşterinin sipariş e-postasına manuel gönderir. ERP/Shopify entegrasyonu ve müşteri hesabı açma ilk pilotta kapsam dışı."
+        ],
+        "explicit_non_goals": [],
+        "open_questions": [],
+        "last_asked_unknown_id": "",
+        "last_asked_question": "",
+        "questions_asked_this_turn": 0,
+        "total_questions_asked": 1,
+        "handoff_readiness": {
+          "score": 0,
+          "ready": false,
+          "blockers": [
+            "Source coverage review is missing or stale.",
+            "Required intake record incomplete: PROFILE-004 (Technical profile)",
+            "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+            "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)",
+            "REQ-001 (Müşteri iade talebi oluşturma formu)",
+            "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı)",
+            "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi)",
+            "No accepted or ready requirements exist."
+          ],
+          "missing_fields": [],
+          "blocking_reasons": {
+            "scope_coverage": [
+              "Source coverage review is missing or stale."
+            ],
+            "intake": [
+              "Required intake record incomplete: PROFILE-004 (Technical profile)",
+              "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+              "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)"
+            ],
+            "candidate_scope": [
+              "REQ-001 (Müşteri iade talebi oluşturma formu)",
+              "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı)",
+              "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi)"
+            ],
+            "scope": [
+              "No accepted or ready requirements exist."
+            ]
+          },
+          "dimensions": {
+            "profile": "blocked",
+            "source_coverage": "blocked",
+            "scope": "blocked",
+            "functional_behavior": "ok",
+            "edge_cases": "ok",
+            "acceptance_criteria": "ok",
+            "dependencies": "ok",
+            "out_of_scope": "blocked",
+            "traceability": "ok",
+            "risk": "ok"
+          }
+        },
+        "scope_coverage": {
+          "status": "needs_review",
+          "current": false,
+          "reviewed_spec_head": "",
+          "gaps": [],
+          "unsupported_assumptions": [],
+          "summary": "Artifact agent changed project scope."
+        },
+        "candidate_review": {
+          "pending_req_ids": [
+            "REQ-001",
+            "REQ-002",
+            "REQ-003"
+          ],
+          "source_turn_id": "e46c6a9d-6b29-455a-90ff-751de2cb3dbe",
+          "prompt": "Bu aday dilimi review bekliyor: REQ-001, REQ-002, REQ-003. Aday olarak beklet, backlog'a al, kapsam disi yap veya duzeltme isteyebilirsin. Accepted scope'a almak ayri onay ister.",
+          "reason": "artifact_agent_candidate_change"
+        },
+        "plan_deltas": [],
+        "updated_at": "2026-10-23T06:13:39.798762Z"
+      }
+    }
+  },
+  {
+    "event_id": "evt_4f35c6b4d92f4842abdb6a9b1d449ab0",
+    "timestamp": "2026-10-23T06:19:37.908419+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+    "phase": "onboarding",
+    "type": "user_transcript",
+    "role": "user",
+    "text": "onaylıyorum",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "onaylıyorum"
+    }
+  },
+  {
+    "event_id": "evt_d67b2dca7fde4cf9836f56d118d840b7",
+    "timestamp": "2026-10-23T06:19:37.987199+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+    "phase": "onboarding",
+    "type": "intent_classified",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "intent": "conversation",
+      "confidence": 1.0,
+      "raw_text": "onaylıyorum",
+      "boundary": "artifact_agent"
+    }
+  },
+  {
+    "event_id": "evt_b78238f3466f4ec2af5847230febefea",
+    "timestamp": "2026-10-23T06:19:41.359426+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 1577,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 12611,
+      "message_count": 1,
+      "tool_schema_chars": 9223,
+      "tool_count": 11,
+      "max_tokens": 3600,
+      "input_tokens": 6759,
+      "output_tokens": 122,
+      "total_tokens": 6881,
+      "cache_read_tokens": 3200,
+      "cache_miss_tokens": 3559,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 189
+    }
+  },
+  {
+    "event_id": "evt_08b8db3e3e1c470692d031fd8481e4c0",
+    "timestamp": "2026-10-23T06:19:41.372810+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 1524,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 12949,
+      "message_count": 3,
+      "tool_schema_chars": 9223,
+      "tool_count": 11,
+      "max_tokens": 3600,
+      "input_tokens": 6995,
+      "output_tokens": 202,
+      "total_tokens": 7197,
+      "cache_read_tokens": 6784,
+      "cache_miss_tokens": 211,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 372
+    }
+  },
+  {
+    "event_id": "evt_83f960a5d1294781b36581cf321dd44b",
+    "timestamp": "2026-10-23T06:19:41.386862+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+    "phase": "onboarding",
+    "type": "artifact_agent_turn_completed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "model_rounds": 2,
+      "tool_calls": 2,
+      "tool_trace": [
+        {
+          "round": 1,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 1584.17,
+          "local_exec_ms": 3.97,
+          "tokens": 6881,
+          "calls": [
+            {
+              "name": "propose_lifecycle",
+              "ok": false,
+              "error": "invalid_arguments",
+              "message": "steps.0.reason: Field required (input={'artifact_ids': ['REQ-001'], 'decision': 'accept'}); steps.1.reason: Field required (input={'artifact_ids': ['REQ-002'], 'decision': 'accept'}); steps.2.reason: Field required (input={'artifact_ids': [",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 1524.57,
+          "local_exec_ms": 1.81,
+          "tokens": 7197,
+          "calls": [
+            {
+              "name": "propose_lifecycle",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": true
+            }
+          ]
+        }
+      ],
+      "created_ids": [],
+      "updated_ids": [],
+      "resolved_question_ids": [],
+      "proposed_action": true
+    }
+  },
+  {
+    "event_id": "evt_6e19ba887b2b44d2a0a09c2d7b47d679",
+    "timestamp": "2026-10-23T06:19:41.401037+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+    "phase": "onboarding",
+    "type": "pending_command_created",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [
+      "REQ-001",
+      "REQ-002",
+      "REQ-003"
+    ],
+    "affected_req_ids": [
+      "REQ-001",
+      "REQ-002",
+      "REQ-003"
+    ],
+    "decision_ids": [],
+    "command_id": "c523f314-07f3-4fff-b664-56386f07259c",
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "command_id": "c523f314-07f3-4fff-b664-56386f07259c",
+      "command_type": "review_candidate_chain",
+      "payload": {
+        "steps": [
+          {
+            "req_ids": [
+              "REQ-001"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          },
+          {
+            "req_ids": [
+              "REQ-002"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          },
+          {
+            "req_ids": [
+              "REQ-003"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          }
+        ]
+      },
+      "spoken_summary": "REQ-001 accept; REQ-002 accept; REQ-003 accept kararlarını uygulayayım mı?",
+      "approval_mode": "explicit",
+      "requires_explicit_confirm": true,
+      "source_turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa"
+    }
+  },
+  {
+    "event_id": "evt_0f3cc7ac553e45ee91bb8d367d579ad6",
+    "timestamp": "2026-10-23T06:19:41.414771+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+    "phase": "onboarding",
+    "type": "assistant_response",
+    "role": "assistant",
+    "text": "REQ-001 accept; REQ-002 accept; REQ-003 accept kararlarını uygulayayım mı? Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "REQ-001 accept; REQ-002 accept; REQ-003 accept kararlarını uygulayayım mı? Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.",
+      "reasoning_state": {
+        "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+        "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+        "project_profile": {
+          "target_user": "",
+          "usage_context": "",
+          "business_model": "",
+          "target_platform": "",
+          "scope_level": "",
+          "handoff_target": "",
+          "strictness": "standard",
+          "conversation_language": "tr",
+          "output_language": "tr",
+          "handoff_language": ""
+        },
+        "context_pack_ids": [
+          "domain.ecommerce",
+          "product_type.internal_admin_tool"
+        ],
+        "context_source_ids": [],
+        "context_briefs": [],
+        "known_facts": [],
+        "unknowns": [
+          {
+            "id": "128fdf16",
+            "description": "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?",
+            "risk_level": "high",
+            "status": "resolved",
+            "times_asked": 1,
+            "assumption": "",
+            "resolved_by": "Pilot sürümde müşteri erişim modeli: tek kullanımlık talep bağlantısı. Operasyon uzmanı bağlantıyı müşterinin sipariş e-postasına manuel gönderir. ERP/Shopify entegrasyonu ve müşteri hesabı açma ilk pilotta kapsam dışı.",
+            "source": "artifact_agent",
+            "profile_field": "",
+            "intake_fields": [],
+            "artifact_ids": [
+              "PROFILE-002",
+              "PROFILE-003"
+            ],
+            "question_kind": "decision",
+            "question_reason": "Müşteri erişim modeli; kimlik doğrulama, sipariş verisi entegrasyonu ve kötüye kullanım koruması gereksinimlerini belirleyen en yüksek riskli karar.",
+            "recommended_option": "Sipariş numarası + e-posta ile eşleşen tek kullanımlık talep bağlantısı",
+            "recommendation_reason": "Herkese açık formun sadeliğini korurken talebi gerçek sipariş sahibine bağlar; pilot için hesap/şifre altyapısı gerektirmez ve ileride self-servis ürüne doğal geçiş sağlar.",
+            "options": [
+              {
+                "label": "Sipariş no + e-posta eşleşmesiyle tek kullanımlık bağlantı",
+                "tradeoff": "Müşteri sipariş no ve e-postasını girer; eşleşirse e-posta ile talep formu bağlantısı gönderilir. Hesap yok, doğrulama var."
+              },
+              {
+                "label": "Herkese açık form, yalnızca sipariş numarası",
+                "tradeoff": "En hızlı pilot; ancak sahte talep ve başkasının siparişine erişim riski kabul edilir."
+              },
+              {
+                "label": "Operasyon ekibi müşteri adına talep açar",
+                "tradeoff": "Müşteri formu yok; talepler telefon/e-posta ile gelir, uzman sisteme girer. En düşük geliştirme yükü, en yüksek manuel iş."
+              },
+              {
+                "label": "Müşteri hesabı ile giriş",
+                "tradeoff": "Kalıcı hesap ve oturum yönetimi; pilot için ek kapsam ve geliştirme yükü getirir."
+              }
+            ]
+          }
+        ],
+        "assumptions": [],
+        "decisions": [
+          "Pilot sürümde müşteri erişim modeli: tek kullanımlık talep bağlantısı. Operasyon uzmanı bağlantıyı müşterinin sipariş e-postasına manuel gönderir. ERP/Shopify entegrasyonu ve müşteri hesabı açma ilk pilotta kapsam dışı."
+        ],
+        "explicit_non_goals": [],
+        "open_questions": [],
+        "last_asked_unknown_id": "",
+        "last_asked_question": "",
+        "questions_asked_this_turn": 0,
+        "total_questions_asked": 1,
+        "handoff_readiness": {
+          "score": 0,
+          "ready": false,
+          "blockers": [
+            "Source coverage review is missing or stale.",
+            "Required intake record incomplete: PROFILE-004 (Technical profile)",
+            "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+            "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)",
+            "REQ-001 (Müşteri iade talebi oluşturma formu)",
+            "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı)",
+            "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi)",
+            "No accepted or ready requirements exist."
+          ],
+          "missing_fields": [],
+          "blocking_reasons": {
+            "scope_coverage": [
+              "Source coverage review is missing or stale."
+            ],
+            "intake": [
+              "Required intake record incomplete: PROFILE-004 (Technical profile)",
+              "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+              "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)"
+            ],
+            "candidate_scope": [
+              "REQ-001 (Müşteri iade talebi oluşturma formu)",
+              "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı)",
+              "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi)"
+            ],
+            "scope": [
+              "No accepted or ready requirements exist."
+            ]
+          },
+          "dimensions": {
+            "profile": "blocked",
+            "source_coverage": "blocked",
+            "scope": "blocked",
+            "functional_behavior": "ok",
+            "edge_cases": "ok",
+            "acceptance_criteria": "ok",
+            "dependencies": "ok",
+            "out_of_scope": "blocked",
+            "traceability": "ok",
+            "risk": "ok"
+          }
+        },
+        "scope_coverage": {
+          "status": "needs_review",
+          "current": false,
+          "reviewed_spec_head": "",
+          "gaps": [],
+          "unsupported_assumptions": [],
+          "summary": "Artifact agent changed project scope."
+        },
+        "candidate_review": {
+          "pending_req_ids": [
+            "REQ-001",
+            "REQ-002",
+            "REQ-003"
+          ],
+          "source_turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+          "prompt": "Bu aday dilimi review bekliyor: REQ-001, REQ-002, REQ-003. Aday olarak beklet, backlog'a al, kapsam disi yap veya duzeltme isteyebilirsin. Accepted scope'a almak ayri onay ister.",
+          "reason": "artifact_agent_candidate_change"
+        },
+        "plan_deltas": [],
+        "updated_at": "2026-10-23T06:19:41.350415Z"
+      }
+    }
+  },
+  {
+    "event_id": "evt_9d1702bfab284d9d8f1c8b4a1001d9ca",
+    "timestamp": "2026-10-23T06:21:06.762851+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "2f0a3a0b-2149-42e2-9c24-997aefd1d10f",
+    "phase": "onboarding",
+    "type": "user_transcript",
+    "role": "user",
+    "text": "onaylıyorum",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "onaylıyorum"
+    }
+  },
+  {
+    "event_id": "evt_73d21d31ec3e4dfe82618e04c6295f9e",
+    "timestamp": "2026-10-23T06:21:06.784852+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "2f0a3a0b-2149-42e2-9c24-997aefd1d10f",
+    "phase": "onboarding",
+    "type": "intent_classified",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "intent": "confirm",
+      "confidence": 1.0,
+      "raw_text": "onaylıyorum",
+      "boundary": "pending_command_decision"
+    }
+  },
+  {
+    "event_id": "evt_16511c76d69a4c12bafca9b6e5d79d97",
+    "timestamp": "2026-10-23T06:21:06.811803+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "2f0a3a0b-2149-42e2-9c24-997aefd1d10f",
+    "phase": "onboarding",
+    "type": "turn_route_selected",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "route_id": "pending_command_decision",
+      "owner": "command_boundary",
+      "priority": 10,
+      "intent": "confirm",
+      "mutation_allowed": false
+    }
+  },
+  {
+    "event_id": "evt_d0a4175b6fbb4f52b9be2250318bf24e",
+    "timestamp": "2026-10-23T06:21:07.407907+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "2f0a3a0b-2149-42e2-9c24-997aefd1d10f",
+    "phase": "onboarding",
+    "type": "command_executed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [
+      "REQ-001",
+      "REQ-002",
+      "REQ-003"
+    ],
+    "affected_req_ids": [
+      "REQ-001",
+      "REQ-002",
+      "REQ-003"
+    ],
+    "decision_ids": [],
+    "command_id": "c523f314-07f3-4fff-b664-56386f07259c",
+    "operation_id": "op_203a5538ad8a44a9876a3766cfae8380",
+    "commit_hash": "e22472a7cb96f44fc59fa5b7eebc6695259026e8",
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [
+      "items/REQ-001.md",
+      "items/REQ-002.md",
+      "items/REQ-003.md"
+    ],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "command_id": "c523f314-07f3-4fff-b664-56386f07259c",
+      "command_type": "review_candidate_chain",
+      "payload": {
+        "steps": [
+          {
+            "req_ids": [
+              "REQ-001"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          },
+          {
+            "req_ids": [
+              "REQ-002"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          },
+          {
+            "req_ids": [
+              "REQ-003"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          }
+        ]
+      },
+      "spoken_summary": "REQ-001 accept; REQ-002 accept; REQ-003 accept kararlarını uygulayayım mı?",
+      "approval_mode": "explicit",
+      "requires_explicit_confirm": true,
+      "source_turn_id": "b69fb3ce-c1e6-42b9-864e-f2f000f014fa",
+      "result": {
+        "status": "ok",
+        "action": "candidate_review_chain",
+        "operation_id": "op_203a5538ad8a44a9876a3766cfae8380",
+        "commit_hash": "e22472a7cb96f44fc59fa5b7eebc6695259026e8",
+        "changed_files": [
+          "items/REQ-001.md",
+          "items/REQ-002.md",
+          "items/REQ-003.md"
+        ],
+        "source_event_ids": [
+          "evt_d0a4175b6fbb4f52b9be2250318bf24e"
+        ],
+        "decision_ids": [],
+        "req_ids": [
+          "REQ-001",
+          "REQ-002",
+          "REQ-003"
+        ],
+        "decision": "chain",
+        "steps": [
+          {
+            "req_ids": [
+              "REQ-001"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          },
+          {
+            "req_ids": [
+              "REQ-002"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          },
+          {
+            "req_ids": [
+              "REQ-003"
+            ],
+            "decision": "accept",
+            "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+          }
+        ]
+      },
+      "linked_req_id": null,
+      "operation_id": "op_203a5538ad8a44a9876a3766cfae8380",
+      "commit_hash": "e22472a7cb96f44fc59fa5b7eebc6695259026e8",
+      "changed_files": [
+        "items/REQ-001.md",
+        "items/REQ-002.md",
+        "items/REQ-003.md"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_3f53c74613ab4140906527d6e056163c",
+    "timestamp": "2026-10-23T06:21:07.463850+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "2f0a3a0b-2149-42e2-9c24-997aefd1d10f",
+    "phase": "onboarding",
+    "type": "candidate_review_decision_recorded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [
+      "REQ-001",
+      "REQ-002",
+      "REQ-003"
+    ],
+    "affected_req_ids": [
+      "REQ-001",
+      "REQ-002",
+      "REQ-003"
+    ],
+    "decision_ids": [],
+    "command_id": "c523f314-07f3-4fff-b664-56386f07259c",
+    "operation_id": "op_203a5538ad8a44a9876a3766cfae8380",
+    "commit_hash": "e22472a7cb96f44fc59fa5b7eebc6695259026e8",
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [
+      "items/REQ-001.md",
+      "items/REQ-002.md",
+      "items/REQ-003.md"
+    ],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "command_id": "c523f314-07f3-4fff-b664-56386f07259c",
+      "decision": "chain",
+      "steps": [
+        {
+          "req_ids": [
+            "REQ-001"
+          ],
+          "decision": "accept",
+          "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+        },
+        {
+          "req_ids": [
+            "REQ-002"
+          ],
+          "decision": "accept",
+          "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+        },
+        {
+          "req_ids": [
+            "REQ-003"
+          ],
+          "decision": "accept",
+          "reason": "Kullanıcı S1'de adayların kabulünü onayladı."
+        }
+      ],
+      "req_ids": [
+        "REQ-001",
+        "REQ-002",
+        "REQ-003"
+      ],
+      "operation_id": "op_203a5538ad8a44a9876a3766cfae8380",
+      "commit_hash": "e22472a7cb96f44fc59fa5b7eebc6695259026e8",
+      "changed_files": [
+        "items/REQ-001.md",
+        "items/REQ-002.md",
+        "items/REQ-003.md"
+      ],
+      "mutation": true
+    }
+  },
+  {
+    "event_id": "evt_d721a53a31844b93b09e848de346abc5",
+    "timestamp": "2026-10-23T06:21:07.477166+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "303ba90d-c4ce-4a9c-94ce-ee2f1eabd4b4",
+    "turn_id": "2f0a3a0b-2149-42e2-9c24-997aefd1d10f",
+    "phase": "onboarding",
+    "type": "assistant_response",
+    "role": "assistant",
+    "text": "REQ-001 accept; REQ-002 accept; REQ-003 accept kararlarını uygulayayım mı? - kaydettim. Devam edelim.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "REQ-001 accept; REQ-002 accept; REQ-003 accept kararlarını uygulayayım mı? - kaydettim. Devam edelim."
+    }
+  },
+  {
+    "event_id": "evt_78c9f513cf00486e8fc0d510cf9904bb",
+    "timestamp": "2026-10-23T12:47:15.668508+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": null,
+    "phase": "onboarding",
+    "type": "session_started",
+    "role": "assistant",
+    "text": "Merhaba! Bugün ne planlamak istiyorsun?",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "opening_message": "Merhaba! Bugün ne planlamak istiyorsun?",
+      "resumed_from_snapshot": true
+    }
+  },
+  {
+    "event_id": "evt_3e1861af363643bc95f8e3eea36d0ed5",
+    "timestamp": "2026-10-23T12:47:15.799423+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+    "phase": "onboarding",
+    "type": "user_transcript",
+    "role": "user",
+    "text": "REQ-001 için tanımı ve kabul kriterlerini netleştirelim. Form yalnız REQ-003 kapsamındaki geçerli ve kullanılmamış tek kullanımlık bağlantıyla açılsın. Sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı zorunlu olsun. Eksik alanda talep oluşturulmasın ve alan hatası gösterilsin; geçerli gönderimde inceleme bekleyen talep oluşsun ve bağlantı tekrar kullanılamasın. Bu üç durumu Given/When/Then kriteri olarak yaz. Gerekçeyi müşteri talebini izlenebilir ve kontrollü toplamak olarak belirle. Yalnız REQ-001 revizyonu için açık onay teklifi göster; diğer kayıtları değiştirme.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "REQ-001 için tanımı ve kabul kriterlerini netleştirelim. Form yalnız REQ-003 kapsamındaki geçerli ve kullanılmamış tek kullanımlık bağlantıyla açılsın. Sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı zorunlu olsun. Eksik alanda talep oluşturulmasın ve alan hatası gösterilsin; geçerli gönderimde inceleme bekleyen talep oluşsun ve bağlantı tekrar kullanılamasın. Bu üç durumu Given/When/Then kriteri olarak yaz. Gerekçeyi müşteri talebini izlenebilir ve kontrollü toplamak olarak belirle. Yalnız REQ-001 revizyonu için açık onay teklifi göster; diğer kayıtları değiştirme."
+    }
+  },
+  {
+    "event_id": "evt_088c6c09b16f49d38d729d8ffd65aed3",
+    "timestamp": "2026-10-23T12:47:15.822416+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+    "phase": "onboarding",
+    "type": "intent_classified",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "intent": "conversation",
+      "confidence": 1.0,
+      "raw_text": "REQ-001 için tanımı ve kabul kriterlerini netleştirelim. Form yalnız REQ-003 kapsamındaki geçerli ve kullanılmamış tek kullanımlık bağlantıyla açılsın. Sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı zorunlu olsun. Eksik alanda talep oluşturulmasın ve alan hatası gösterilsin; geçerli gönderimde inceleme bekleyen talep oluşsun ve bağlantı tekrar kullanılamasın. Bu üç durumu Given/When/Then kriteri olarak yaz. Gerekçeyi müşteri talebini izlenebilir ve kontrollü toplamak olarak belirle. Yalnız REQ-001 revizyonu için açık onay teklifi göster; diğer kayıtları değiştirme.",
+      "boundary": "artifact_agent"
+    }
+  },
+  {
+    "event_id": "evt_34c4715eea0145a5aa70129e2f486177",
+    "timestamp": "2026-10-23T12:47:28.013133+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 6213,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 12868,
+      "message_count": 1,
+      "tool_schema_chars": 8809,
+      "tool_count": 10,
+      "max_tokens": 3600,
+      "input_tokens": 6739,
+      "output_tokens": 1303,
+      "total_tokens": 8042,
+      "cache_read_tokens": 3072,
+      "cache_miss_tokens": 3667,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 2814
+    }
+  },
+  {
+    "event_id": "evt_dc74a544cd534d6c8a1fc1cad23c5342",
+    "timestamp": "2026-10-23T12:47:28.052987+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 1845,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 12953,
+      "message_count": 3,
+      "tool_schema_chars": 8809,
+      "tool_count": 10,
+      "max_tokens": 3600,
+      "input_tokens": 8086,
+      "output_tokens": 145,
+      "total_tokens": 8231,
+      "cache_read_tokens": 7936,
+      "cache_miss_tokens": 150,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 231
+    }
+  },
+  {
+    "event_id": "evt_98eb104fe96446a2b80ea1850af32d2d",
+    "timestamp": "2026-10-23T12:47:28.096892+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+    "phase": "onboarding",
+    "type": "provider_attempt_succeeded",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "provider": "openai_compatible",
+      "model": "deepseek-v4-flash",
+      "purpose": "main",
+      "attempt": 1,
+      "attempt_count": 1,
+      "outcome": "succeeded",
+      "latency_ms": 3767,
+      "will_failover": false,
+      "system_chars": 6373,
+      "message_chars": 13083,
+      "message_count": 5,
+      "tool_schema_chars": 8809,
+      "tool_count": 10,
+      "max_tokens": 3600,
+      "input_tokens": 8278,
+      "output_tokens": 593,
+      "total_tokens": 8871,
+      "cache_read_tokens": 8064,
+      "cache_miss_tokens": 214,
+      "response_text_chars": 0,
+      "tool_call_count": 1,
+      "tool_argument_chars": 1385
+    }
+  },
+  {
+    "event_id": "evt_a374c24cd685408c9ec7d2f0eb8b0ff6",
+    "timestamp": "2026-10-23T12:47:28.192758+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+    "phase": "onboarding",
+    "type": "artifact_agent_turn_completed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "model_rounds": 3,
+      "tool_calls": 3,
+      "tool_trace": [
+        {
+          "round": 1,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 6215.23,
+          "local_exec_ms": 0.6,
+          "tokens": 8042,
+          "calls": [
+            {
+              "name": "revise_artifact",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 1845.85,
+          "local_exec_ms": 0.61,
+          "tokens": 8231,
+          "calls": [
+            {
+              "name": "propose_lifecycle",
+              "ok": false,
+              "error": "multiple_approval_commands",
+              "message": "Only one approval-gated command may be proposed per turn.",
+              "terminal": false
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "provider": "openai_compatible",
+          "model": "deepseek-v4-flash",
+          "provider_wait_ms": 3767.75,
+          "local_exec_ms": 0.1,
+          "tokens": 8871,
+          "calls": [
+            {
+              "name": "finish_turn",
+              "ok": true,
+              "error": "",
+              "message": "",
+              "terminal": true
+            }
+          ]
+        }
+      ],
+      "created_ids": [],
+      "updated_ids": [],
+      "resolved_question_ids": [],
+      "proposed_action": true
+    }
+  },
+  {
+    "event_id": "evt_bf66794765f6497bb811be127c47ba32",
+    "timestamp": "2026-10-23T12:47:28.353490+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+    "phase": "onboarding",
+    "type": "pending_command_created",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [
+      "REQ-001"
+    ],
+    "affected_req_ids": [
+      "REQ-001"
+    ],
+    "decision_ids": [],
+    "command_id": "bbfb41c1-4f1b-465f-8e5f-3a62796d8210",
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "command_id": "bbfb41c1-4f1b-465f-8e5f-3a62796d8210",
+      "command_type": "update_item",
+      "payload": {
+        "req_id": "REQ-001",
+        "details": "Müşteri, sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı girerek iade talebi açar. Form yalnızca REQ-003 kapsamındaki geçerli ve daha önce kullanılmamış tek kullanımlık bağlantı üzerinden açılır; bağlantı olmadan veya geçersiz/kullanılmış bağlantıyla forma erişilemez. Üç alan da zorunludur: sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı. Eksik alan varsa talep oluşturulmaz ve ilgili alanda hata mesajı gösterilir. Geçerli gönderimde talep \"inceleme bekliyor\" durumunda oluşur ve operasyon ekibinin inceleme kuyruğuna düşer; aynı bağlantı tekrar kullanılamaz. Pilot kapsamında müşteri hesabı/oturum açma gerekmez; talep sipariş numarası üzerinden ilişkilendirilir.",
+        "rationale": "Müşteri talebini izlenebilir ve kontrollü toplamak: her talep geçerli bir siparişe bağlı tek kullanımlık bağlantıdan gelir, zorunlu alanlar eksiksiz toplanır ve talep operasyon incelemesine düşer.",
+        "pre_conditions": [
+          "Operasyon uzmanı ilgili sipariş için tek kullanımlık iade talep bağlantısı üretmiş ve müşteriye iletmiş olmalı (REQ-003).",
+          "Bağlantı geçerli (süresi dolmamış) ve daha önce kullanılmamış olmalı."
+        ],
+        "post_conditions": [
+          "Geçerli gönderimde 'inceleme bekliyor' durumunda bir iade talebi kaydı oluşur ve operasyon inceleme kuyruğunda görünür.",
+          "Kullanılan bağlantı geçersiz hale gelir ve tekrar kullanılamaz.",
+          "Eksik alanlı gönderimde hiçbir talep kaydı oluşmaz ve bağlantı kullanılmamış kalır."
+        ],
+        "done_definition": "Form yalnız geçerli ve kullanılmamış tek kullanımlık bağlantıyla açılıyor; üç zorunlu alan eksikse talep oluşmuyor ve alan hatası gösteriliyor; geçerli gönderimde inceleme bekleyen talep oluşuyor ve bağlantı tekrar kullanılamıyor.",
+        "acceptance_criteria": [
+          {
+            "title": "Acceptance scenario",
+            "given": "Operasyon uzmanının ürettiği geçerli ve kullanılmamış tek kullanımlık bağlantı",
+            "when": "Müşteri bağlantıyı açar",
+            "then": "İade talebi formu açılır ve sipariş numarası, iade nedeni ve ürün fotoğrafı alanları gösterilir."
+          },
+          {
+            "title": "Acceptance scenario",
+            "given": "Açık formda sipariş numarası, iade nedeni veya ürün fotoğrafı alanlarından en az biri boş",
+            "when": "Müşteri formu göndermeye çalışır",
+            "then": "Talep oluşturulmaz, eksik alanlarda alan hatası gösterilir ve bağlantı kullanılmamış kalır."
+          },
+          {
+            "title": "Acceptance scenario",
+            "given": "Açık formda sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı doldurulmuş",
+            "when": "Müşteri formu gönderir",
+            "then": "İnceleme bekleyen bir iade talebi oluşur ve aynı bağlantı tekrar kullanılamaz."
+          }
+        ],
+        "notes": "S1 talebi: yalnız REQ-001 revizyonu; diğer kayıtlar değiştirilmedi. Bağlantı üretimi ve geçerlilik/süre kuralları REQ-003 kapsamında kalır."
+      },
+      "spoken_summary": "REQ-001 için kapsam/tanım, kabul kriterleri, gerekçe güncellemesini uygulayayım mı?",
+      "approval_mode": "explicit",
+      "requires_explicit_confirm": true,
+      "source_turn_id": "1526865a-d471-4fef-be99-b55bbd542628"
+    }
+  },
+  {
+    "event_id": "evt_cdb2b7fe8da7456ca3176cedbb235293",
+    "timestamp": "2026-10-23T12:47:28.411404+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+    "phase": "onboarding",
+    "type": "assistant_response",
+    "role": "assistant",
+    "text": "REQ-001 için kapsam/tanım, kabul kriterleri, gerekçe güncellemesini uygulayayım mı? Önerilen metin: \"Müşteri, sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı girerek iade talebi açar. Form yalnızca REQ-003 kapsa...\" Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "REQ-001 için kapsam/tanım, kabul kriterleri, gerekçe güncellemesini uygulayayım mı? Önerilen metin: \"Müşteri, sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı girerek iade talebi açar. Form yalnızca REQ-003 kapsa...\" Bu değişiklik henüz uygulanmadı; açık onayınızı bekliyor.",
+      "reasoning_state": {
+        "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+        "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+        "project_profile": {
+          "target_user": "",
+          "usage_context": "",
+          "business_model": "",
+          "target_platform": "",
+          "scope_level": "",
+          "handoff_target": "",
+          "strictness": "standard",
+          "conversation_language": "tr",
+          "output_language": "tr",
+          "handoff_language": ""
+        },
+        "context_pack_ids": [
+          "domain.ecommerce",
+          "product_type.internal_admin_tool"
+        ],
+        "context_source_ids": [],
+        "context_briefs": [],
+        "known_facts": [],
+        "unknowns": [
+          {
+            "id": "128fdf16",
+            "description": "Pilot sürümde müşteri iade talebini hangi erişim modeliyle açsın?",
+            "risk_level": "high",
+            "status": "resolved",
+            "times_asked": 1,
+            "assumption": "",
+            "resolved_by": "Pilot sürümde müşteri erişim modeli: tek kullanımlık talep bağlantısı. Operasyon uzmanı bağlantıyı müşterinin sipariş e-postasına manuel gönderir. ERP/Shopify entegrasyonu ve müşteri hesabı açma ilk pilotta kapsam dışı.",
+            "source": "artifact_agent",
+            "profile_field": "",
+            "intake_fields": [],
+            "artifact_ids": [
+              "PROFILE-002",
+              "PROFILE-003"
+            ],
+            "question_kind": "decision",
+            "question_reason": "Müşteri erişim modeli; kimlik doğrulama, sipariş verisi entegrasyonu ve kötüye kullanım koruması gereksinimlerini belirleyen en yüksek riskli karar.",
+            "recommended_option": "Sipariş numarası + e-posta ile eşleşen tek kullanımlık talep bağlantısı",
+            "recommendation_reason": "Herkese açık formun sadeliğini korurken talebi gerçek sipariş sahibine bağlar; pilot için hesap/şifre altyapısı gerektirmez ve ileride self-servis ürüne doğal geçiş sağlar.",
+            "options": [
+              {
+                "label": "Sipariş no + e-posta eşleşmesiyle tek kullanımlık bağlantı",
+                "tradeoff": "Müşteri sipariş no ve e-postasını girer; eşleşirse e-posta ile talep formu bağlantısı gönderilir. Hesap yok, doğrulama var."
+              },
+              {
+                "label": "Herkese açık form, yalnızca sipariş numarası",
+                "tradeoff": "En hızlı pilot; ancak sahte talep ve başkasının siparişine erişim riski kabul edilir."
+              },
+              {
+                "label": "Operasyon ekibi müşteri adına talep açar",
+                "tradeoff": "Müşteri formu yok; talepler telefon/e-posta ile gelir, uzman sisteme girer. En düşük geliştirme yükü, en yüksek manuel iş."
+              },
+              {
+                "label": "Müşteri hesabı ile giriş",
+                "tradeoff": "Kalıcı hesap ve oturum yönetimi; pilot için ek kapsam ve geliştirme yükü getirir."
+              }
+            ]
+          }
+        ],
+        "assumptions": [],
+        "decisions": [
+          "Pilot sürümde müşteri erişim modeli: tek kullanımlık talep bağlantısı. Operasyon uzmanı bağlantıyı müşterinin sipariş e-postasına manuel gönderir. ERP/Shopify entegrasyonu ve müşteri hesabı açma ilk pilotta kapsam dışı."
+        ],
+        "explicit_non_goals": [],
+        "open_questions": [],
+        "last_asked_unknown_id": "",
+        "last_asked_question": "",
+        "questions_asked_this_turn": 0,
+        "total_questions_asked": 1,
+        "handoff_readiness": {
+          "score": 0,
+          "ready": false,
+          "blockers": [
+            "Source coverage review is missing or stale.",
+            "Required intake record incomplete: PROFILE-004 (Technical profile)",
+            "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+            "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)",
+            "REQ-001 (Müşteri iade talebi oluşturma formu): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies",
+            "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies",
+            "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies"
+          ],
+          "missing_fields": [
+            "REQ-001 (Müşteri iade talebi oluşturma formu): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies",
+            "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies",
+            "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies"
+          ],
+          "blocking_reasons": {
+            "scope_coverage": [
+              "Source coverage review is missing or stale."
+            ],
+            "intake": [
+              "Required intake record incomplete: PROFILE-004 (Technical profile)",
+              "Required intake record incomplete: PROFILE-005 (Handoff target and output language)",
+              "Required intake record incomplete: CHARTER-001 (Product charter and implementation principles)"
+            ],
+            "missing_required": [
+              "REQ-001 (Müşteri iade talebi oluşturma formu): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies",
+              "REQ-002 (Operasyon uzmanı inceleme ve kabul/ret kararı): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies",
+              "REQ-003 (Tek kullanımlık iade talep bağlantısı ve manuel e-posta gönderimi): inputs, outputs, behavior, edge_cases, acceptance_criteria, dependencies"
+            ]
+          },
+          "dimensions": {
+            "profile": "blocked",
+            "source_coverage": "blocked",
+            "scope": "ok",
+            "functional_behavior": "blocked",
+            "edge_cases": "blocked",
+            "acceptance_criteria": "blocked",
+            "dependencies": "blocked",
+            "out_of_scope": "ok",
+            "traceability": "blocked",
+            "risk": "ok"
+          }
+        },
+        "scope_coverage": {
+          "status": "needs_review",
+          "current": false,
+          "reviewed_spec_head": "",
+          "gaps": [],
+          "unsupported_assumptions": [],
+          "summary": "Artifact agent changed project scope."
+        },
+        "candidate_review": {
+          "pending_req_ids": [],
+          "source_turn_id": "",
+          "prompt": "",
+          "reason": ""
+        },
+        "plan_deltas": [],
+        "updated_at": "2026-10-23T12:47:27.986293Z"
+      }
+    }
+  },
+  {
+    "event_id": "evt_0a83b4b86aa34fd1986772448efd3e81",
+    "timestamp": "2026-10-23T12:47:59.279837+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1e0b8309-a1a7-4ea7-b77c-d6b52e415a86",
+    "phase": "onboarding",
+    "type": "user_transcript",
+    "role": "user",
+    "text": "onaylıyorum",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "onaylıyorum"
+    }
+  },
+  {
+    "event_id": "evt_1542eee6345442c48261767f95caa732",
+    "timestamp": "2026-10-23T12:47:59.296052+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1e0b8309-a1a7-4ea7-b77c-d6b52e415a86",
+    "phase": "onboarding",
+    "type": "intent_classified",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "intent": "confirm",
+      "confidence": 1.0,
+      "raw_text": "onaylıyorum",
+      "boundary": "pending_command_decision"
+    }
+  },
+  {
+    "event_id": "evt_aa72a9ad547d4568881bd75534649f87",
+    "timestamp": "2026-10-23T12:47:59.311350+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1e0b8309-a1a7-4ea7-b77c-d6b52e415a86",
+    "phase": "onboarding",
+    "type": "turn_route_selected",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "route_id": "pending_command_decision",
+      "owner": "command_boundary",
+      "priority": 10,
+      "intent": "confirm",
+      "mutation_allowed": false
+    }
+  },
+  {
+    "event_id": "evt_6196f52f7462493297560352934620db",
+    "timestamp": "2026-10-23T12:47:59.378125+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1e0b8309-a1a7-4ea7-b77c-d6b52e415a86",
+    "phase": "onboarding",
+    "type": "command_executed",
+    "role": "system",
+    "text": "",
+    "linked_req_ids": [
+      "REQ-001"
+    ],
+    "affected_req_ids": [
+      "REQ-001"
+    ],
+    "decision_ids": [],
+    "command_id": "bbfb41c1-4f1b-465f-8e5f-3a62796d8210",
+    "operation_id": "op_01ab7edde808456cbca3047b955f8230",
+    "commit_hash": "ebb119f981a211afab390ac747d8f11a7fd5bfac",
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [
+      "items/REQ-001.md"
+    ],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "command_id": "bbfb41c1-4f1b-465f-8e5f-3a62796d8210",
+      "command_type": "update_item",
+      "payload": {
+        "req_id": "REQ-001",
+        "details": "Müşteri, sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı girerek iade talebi açar. Form yalnızca REQ-003 kapsamındaki geçerli ve daha önce kullanılmamış tek kullanımlık bağlantı üzerinden açılır; bağlantı olmadan veya geçersiz/kullanılmış bağlantıyla forma erişilemez. Üç alan da zorunludur: sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı. Eksik alan varsa talep oluşturulmaz ve ilgili alanda hata mesajı gösterilir. Geçerli gönderimde talep \"inceleme bekliyor\" durumunda oluşur ve operasyon ekibinin inceleme kuyruğuna düşer; aynı bağlantı tekrar kullanılamaz. Pilot kapsamında müşteri hesabı/oturum açma gerekmez; talep sipariş numarası üzerinden ilişkilendirilir.",
+        "rationale": "Müşteri talebini izlenebilir ve kontrollü toplamak: her talep geçerli bir siparişe bağlı tek kullanımlık bağlantıdan gelir, zorunlu alanlar eksiksiz toplanır ve talep operasyon incelemesine düşer.",
+        "pre_conditions": [
+          "Operasyon uzmanı ilgili sipariş için tek kullanımlık iade talep bağlantısı üretmiş ve müşteriye iletmiş olmalı (REQ-003).",
+          "Bağlantı geçerli (süresi dolmamış) ve daha önce kullanılmamış olmalı."
+        ],
+        "post_conditions": [
+          "Geçerli gönderimde 'inceleme bekliyor' durumunda bir iade talebi kaydı oluşur ve operasyon inceleme kuyruğunda görünür.",
+          "Kullanılan bağlantı geçersiz hale gelir ve tekrar kullanılamaz.",
+          "Eksik alanlı gönderimde hiçbir talep kaydı oluşmaz ve bağlantı kullanılmamış kalır."
+        ],
+        "done_definition": "Form yalnız geçerli ve kullanılmamış tek kullanımlık bağlantıyla açılıyor; üç zorunlu alan eksikse talep oluşmuyor ve alan hatası gösteriliyor; geçerli gönderimde inceleme bekleyen talep oluşuyor ve bağlantı tekrar kullanılamıyor.",
+        "acceptance_criteria": [
+          {
+            "title": "Acceptance scenario",
+            "given": "Operasyon uzmanının ürettiği geçerli ve kullanılmamış tek kullanımlık bağlantı",
+            "when": "Müşteri bağlantıyı açar",
+            "then": "İade talebi formu açılır ve sipariş numarası, iade nedeni ve ürün fotoğrafı alanları gösterilir."
+          },
+          {
+            "title": "Acceptance scenario",
+            "given": "Açık formda sipariş numarası, iade nedeni veya ürün fotoğrafı alanlarından en az biri boş",
+            "when": "Müşteri formu göndermeye çalışır",
+            "then": "Talep oluşturulmaz, eksik alanlarda alan hatası gösterilir ve bağlantı kullanılmamış kalır."
+          },
+          {
+            "title": "Acceptance scenario",
+            "given": "Açık formda sipariş numarası, iade nedeni ve en az bir ürün fotoğrafı doldurulmuş",
+            "when": "Müşteri formu gönderir",
+            "then": "İnceleme bekleyen bir iade talebi oluşur ve aynı bağlantı tekrar kullanılamaz."
+          }
+        ],
+        "notes": "S1 talebi: yalnız REQ-001 revizyonu; diğer kayıtlar değiştirilmedi. Bağlantı üretimi ve geçerlilik/süre kuralları REQ-003 kapsamında kalır."
+      },
+      "spoken_summary": "REQ-001 için kapsam/tanım, kabul kriterleri, gerekçe güncellemesini uygulayayım mı?",
+      "approval_mode": "explicit",
+      "requires_explicit_confirm": true,
+      "source_turn_id": "1526865a-d471-4fef-be99-b55bbd542628",
+      "result": {
+        "status": "ok",
+        "action": "updated",
+        "operation_id": "op_01ab7edde808456cbca3047b955f8230",
+        "commit_hash": "ebb119f981a211afab390ac747d8f11a7fd5bfac",
+        "changed_files": [
+          "items/REQ-001.md"
+        ],
+        "source_event_ids": [
+          "evt_6196f52f7462493297560352934620db"
+        ],
+        "decision_ids": [],
+        "req_id": "REQ-001"
+      },
+      "linked_req_id": "REQ-001",
+      "operation_id": "op_01ab7edde808456cbca3047b955f8230",
+      "commit_hash": "ebb119f981a211afab390ac747d8f11a7fd5bfac",
+      "changed_files": [
+        "items/REQ-001.md"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_0dc03224e6344ce092e3ed5ed96fbe9c",
+    "timestamp": "2026-10-23T12:47:59.393115+00:00",
+    "project_id": "fd14d1b8-79d2-4ab0-9cc0-e9f2a189a9d1",
+    "session_id": "58fd046b-a8ed-4be8-af97-130ff27c94b5",
+    "turn_id": "1e0b8309-a1a7-4ea7-b77c-d6b52e415a86",
+    "phase": "onboarding",
+    "type": "assistant_response",
+    "role": "assistant",
+    "text": "REQ-001 için kapsam/tanım, kabul kriterleri, gerekçe güncellemesini uygulayayım mı? - kaydettim. Devam edelim.",
+    "linked_req_ids": [],
+    "affected_req_ids": [],
+    "decision_ids": [],
+    "command_id": null,
+    "operation_id": null,
+    "commit_hash": null,
+    "reverted_operation_id": null,
+    "reverted_commit_hash": null,
+    "new_commit_hash": null,
+    "reverted_event_ids": [],
+    "changed_files": [],
+    "supersedes": [],
+    "superseded_by": null,
+    "payload": {
+      "text": "REQ-001 için kapsam/tanım, kabul kriterleri, gerekçe güncellemesini uygulayayım mı? - kaydettim. Devam edelim."
+    }
+  }
+]

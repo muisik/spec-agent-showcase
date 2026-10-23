@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-10-23T12:53:06.186711+00:00",
+  "evidence_kind": "Maintainer-reported verification of private source",
+  "behavior_fix_commit": "0b258321fa372f25a67d619c4819faa3d2817d06",
+  "backend": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/ -q --tb=short",
+    "passed": 499,
+    "deselected_live_tests": 5,
+    "seconds": 139.11
+  },
+  "targeted_projection_and_store": {
+    "passed": 57,
+    "seconds": 12.6
+  },
+  "frontend_build": {
+    "command": "npm run build",
+    "passed": true
+  },
+  "browser_mock_suite": {
+    "command": "npm run test:e2e",
+    "passed": 6,
+    "seconds": 25.8,
+    "boundary": "Mock transport/UI wiring; optional provider-menu request logs refusal without backend at port 8000."
+  },
+  "repairs": [
+    {
+      "task": "TASK-0063",
+      "invariant": "Rejected/cancelled batch has no partial SQL/disk commit.",
+      "negative_control": "Original nested-session commit left a real earlier SQL update after a later rejection."
+    },
+    {
+      "task": "TASK-0065",
+      "invariant": "Catalog failure exposes degraded metadata without config mutation.",
+      "negative_control": "Original fallback raised HTTP 500 due to invalid ModelInfo arguments."
+    },
+    {
+      "task": "TASK-0066",
+      "invariant": "Protected intake content changes only after reviewed approval; quality/lifecycle metadata remains server-owned.",
+      "negative_control": "Original strict schema rejected proposal; redundant intake status then caused confirmation failure."
+    },
+    {
+      "task": "TASK-0067",
+      "invariant": "UI decision consumes only its exact reviewed pending command.",
+      "negative_control": "4 of 6 cases failed before repair: replacement consumed; expired control dispatched model."
+    },
+    {
+      "task": "TASK-0068",
+      "invariant": "Read-only JSON exposes persisted body content with project separation and unchanged writes.",
+      "negative_control": "Real API test failed with missing details before repair."
+    }
+  ],
+  "live_result": {
+    "requirements": 3,
+    "accepted": 3,
+    "req_001_bdd_scenarios": 3,
+    "handoff": "partial",
+    "readiness_score": 69,
+    "command_replay_status": 409
+  },
+  "not_established": [
+    "Production readiness",
+    "Semantic exhaustiveness",
+    "Crash-atomic SQL/files/events",
+    "Live microphone/STT/TTS quality",
+    "Independent reproduction without private source"
+  ]
+}

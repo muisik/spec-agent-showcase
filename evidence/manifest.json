@@ -1,0 +1,88 @@
+{
+  "algorithm": "sha256",
+  "excludes": [
+    "evidence/manifest.json"
+  ],
+  "files": {
+    ".gitattributes": {
+      "sha256": "2686f65dc3de8d304c8b88081c6b4b44a299b408833875ea54dd8f2c27809fb0",
+      "bytes": 57
+    },
+    ".gitignore": {
+      "sha256": "2bdfdb216230559f36faf46907142b8afd478401150f810e1ddaf9a4fdcc656c",
+      "bytes": 20
+    },
+    "evidence/approval-checkpoints.json": {
+      "sha256": "7af48674328e07f335c8320560eb29502fc611da368903911d6aaef203a23a9d",
+      "bytes": 65279
+    },
+    "evidence/artifacts.json": {
+      "sha256": "87be8160ee55635fc87871bdaa0deb24d44cfafbc8fca0d9b1cc49d4b75c5bcf",
+      "bytes": 19456
+    },
+    "evidence/audit.json": {
+      "sha256": "62e55ca4b52e40715df2941f59b17aab0f0f9998e3b932f7c183e71e75fc00e0",
+      "bytes": 2477
+    },
+    "evidence/handoff.json": {
+      "sha256": "9a6414b7516e718170172d27fadce516dd4a9dc77dee5bfea34dd7aceb93863a",
+      "bytes": 8814
+    },
+    "evidence/handoff.md": {
+      "sha256": "c65dfac46be19f7df454dedcb249998887143e9595125313e1ae65c77770104c",
+      "bytes": 14985
+    },
+    "evidence/live-conversation.json": {
+      "sha256": "bed83ef9c241666c17bd02ba90fa46b36c0c686e9fd168131af22b7dd5f6bd5f",
+      "bytes": 128595
+    },
+    "evidence/live-workflow.json": {
+      "sha256": "fc33d806f543b2c1ad7a110f0b3debeb91403dc2cdcb34d7d24893ae7f742bb2",
+      "bytes": 3709
+    },
+    "README.md": {
+      "sha256": "db34fe840f9b8eb82d1179a12865a0b360a79892be863f23cd4bec015991b3d2",
+      "bytes": 18119
+    },
+    "screenshots/01-candidate.png": {
+      "sha256": "0e4e5f0490d559b025a1fce5816bbd45771d138133822a4a1f68c89f454a788c",
+      "bytes": 521135
+    },
+    "screenshots/02-business-context.png": {
+      "sha256": "b800c32a80b5b6818e2eddc3aa841efb01cb59d175d18d640f341553a4ae388e",
+      "bytes": 308208
+    },
+    "screenshots/03-context-packs.png": {
+      "sha256": "661203e2c643c1635b7edc7d595e3d6dec03e707378ed1cf608bb0ac6a7a3547",
+      "bytes": 188244
+    },
+    "screenshots/04-live-discovery.png": {
+      "sha256": "c9ee01120f9e6cdf19137e70ed5ebf3a3cee1fcb0966e762d6a2bcabc6abe966",
+      "bytes": 544803
+    },
+    "screenshots/05-live-profile-approval.png": {
+      "sha256": "2a4d6467196b168805a0f7e05bb75604e60ac5392a77d49002681ec8cca1d7db",
+      "bytes": 619482
+    },
+    "screenshots/06-live-scope-approval.png": {
+      "sha256": "8b980abf7edae9812040880a5df8c6b218e3d9550ea1f86a452c13d1e0e31f52",
+      "bytes": 514730
+    },
+    "screenshots/07-live-revision-approval.jpg": {
+      "sha256": "8fc87c639983ded715e3ddcacc4eddb9e130dc8c495d773694087b868ea08410",
+      "bytes": 150247
+    },
+    "screenshots/08-live-approved-requirement.jpg": {
+      "sha256": "489b1bc1eabfe49cd1dbc17bc24e8a489bd5fe826f432f41a5fa9556b5d4b6bd",
+      "bytes": 128422
+    },
+    "screenshots/09-live-handoff.jpg": {
+      "sha256": "c20ef8e9663590d8755d7c452d3798b2c8eb6f4251133b208424cfacc3904559",
+      "bytes": 93890
+    },
+    "screenshots/spec-agent-tour.gif": {
+      "sha256": "01fefb56884064edc346cce30ef18ceeebabafd6ff31cc527b3e2c65839b06b2",
+      "bytes": 2227128
+    }
+  }
+}
